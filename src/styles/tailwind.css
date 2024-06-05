@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import './prism.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://use.typekit.net/zxh8jgs.css');
+
+@layer base {
+  [inert] ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Custom Styles Below */
+.resize {
+  width: 50px;
+  height: auto;
+}
