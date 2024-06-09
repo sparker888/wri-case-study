@@ -54,14 +54,14 @@ export function Hero() {
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button
-                  href="https://gravitaldigital.com/"
+                  href="https://gravitaldigital.com/#contact"
 
                   target="_blank"
                   className="text-white bg-sky-600 hover:bg-white hover:text-red-700"
                 >
                   Contact me
                 </Button>
-                <Button href="https://gravital-wri-case-study.netlify.app#we-ve-done-it" className="text-white bg-gradient-to-br from-purple-700 to-red-700 ">Get started</Button>
+                <Button href="https://gravital-wri-case-study.netlify.app" className="text-white bg-gradient-to-br from-purple-700 to-red-700 ">Get started</Button>
               </div>
             </div>
           </div>
