@@ -1,6 +1,6 @@
 export const navigation = [
   {
-    title: 'WRI Project Overview',
+    title: 'WRI Website Case Study',
     links: [
       { title: 'Executive Summary', href: '/' },
     ],

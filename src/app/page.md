@@ -1,5 +1,5 @@
 ---
-title: WRI Website Project Case Study
+title: WRI Website Case Study
 ---
 
 This page leads to an Executive Summary below. To jump to a specific section, use the navigation to the left or select a group card below. {% .lead %}
@@ -258,27 +258,27 @@ The WRI website project is a success. We met our key goals and objectives and ar
 ---
 
 - Rail Transit Seminar{% width="50%" %}
-- tbd  {% width="25%" %}
-- tbd  {% width="25%" %}
+- 161  {% width="25%" %}
+- 196  {% width="25%" %}
 
 ---
 
 - Principles Course Seminar {% width="50%" %}
-- tbd {% width="25%" %}
-- tbd  {% width="25%" %}
+- 198 {% width="25%" %}
+- 239  {% width="25%" %}
 
 ---
 
 - Heavy Haul Seminar {% width="50%" %}
-- tbd  {% width="25%" %}
-- tbd  {% width="25%" %}
+- 163  {% width="25%" %}
+- 216  {% width="25%" %}
 
 
 ---
 
 - TOTAL ATTENDANCE {% width="50%" %}
-- tbd  {% width="25%" %}
-- tbd  {% width="25%" %}
+- 522  {% width="25%" %}
+- 651  {% width="25%" %}
 
 {% /table %}
 
