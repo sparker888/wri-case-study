@@ -34,10 +34,10 @@ export function Hero() {
   return (
     <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-4.75rem] dark:pb-32 dark:pt-[4.75rem]">
       <div className="py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
+        <div className="grid items-center max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-16 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
             <Image
-              className="absolute bottom-full right-full -mb-56 -mr-72 opacity-50"
+              className="absolute -mb-56 opacity-50 bottom-full right-full -mr-72"
               src={blurCyanImage}
               alt=""
               width={530}
@@ -46,23 +46,22 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="bg-gradient-to-br from-purple-700 to-red-700 bg-clip-text pb-2 font-tagline text-5xl font-black text-transparent sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
+              <p className="pb-2 text-5xl font-black text-transparent bg-gradient-to-br from-purple-700 to-red-700 bg-clip-text font-tagline sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
                 Light. Speed.
               </p>
-              <p className="mt-3 font-header text-2xl tracking-tight text-slate-400">
-                Summary of the Wheel Rail Interaction Conference website project
-                completed on February 27, 2024.
+              <p className="mt-3 text-2xl tracking-tight font-header text-slate-400">
+                This Jamstack website increased conference attendance by a whopping 32%! Here's the case study with full details and links!
               </p>
-              <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
+              <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button
-                  href="https://github.com/wrs-dev/wri-2024-website"
+                  href="https://gravitaldigital.com/"
 
                   target="_blank"
-                  className="bg-sky-600 hover:bg-white text-white hover:text-red-700"
+                  className="text-white bg-sky-600 hover:bg-white hover:text-red-700"
                 >
-                  View Code on GitHub
+                  Contact me
                 </Button>
-                <Button href="https://teal-zuccutto-fc6e79.netlify.app/#we-ve-done-it" className="bg-gradient-to-br from-purple-700 to-red-700 text-white ">Get started</Button>
+                <Button href="https://gravital-wri-case-study.netlify.app#we-ve-done-it" className="text-white bg-gradient-to-br from-purple-700 to-red-700 ">Get started</Button>
               </div>
             </div>
           </div>
@@ -92,11 +91,11 @@ export function Hero() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10 blur-lg" />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10" />
               <div className="relative rounded-2xl bg-amber-600 ring-1 ring-white/10 backdrop-blur">
-                <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-sky-300/70 to-sky-300/0" />
-                <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-blue-400/0 via-blue-400 to-blue-400/0" />
-                <div className="pl-4 pt-4">
+                <div className="absolute h-px -top-px left-20 right-11 bg-gradient-to-r from-sky-300/0 via-sky-300/70 to-sky-300/0" />
+                <div className="absolute h-px -bottom-px left-11 right-20 bg-gradient-to-r from-blue-400/0 via-blue-400 to-blue-400/0" />
+                <div className="pt-4 pl-4">
                   <TrafficLightsIcon className="h-2.5 w-auto stroke-blue-600/50" />
-                  <div className="ml-12 flex space-x-2 text-2xl">
+                  <div className="flex ml-12 space-x-2 text-2xl">
                     {tabs.map((tab) => (
                       <div
                         key={tab.name}
@@ -118,10 +117,10 @@ export function Hero() {
                       </div>
                     ))}
                   </div>
-                  <div className="mt-6 flex items-start px-1 text-sm">
+                  <div className="flex items-start px-1 mt-6 text-sm">
                     <div
                       aria-hidden="true"
-                      className="select-none border-r border-slate-300/5 pr-4 font-mono text-white"
+                      className="pr-4 font-mono text-white border-r select-none border-slate-300/5"
                     >
                       {Array.from({
                         length: code.split('\n').length,

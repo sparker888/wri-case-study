@@ -3,7 +3,6 @@ export const navigation = [
     title: 'WRI Project Overview',
     links: [
       { title: 'Executive Summary', href: '/' },
-      { title: 'Accessing the Codebase', href: '/docs/installation' },
     ],
   },
   {
@@ -52,7 +51,6 @@ export const navigation = [
     links: [
       { title: 'WRI Website Project Goals', href: '/docs/goals-project-scope' },
       { title: 'Project Scope & Budget', href: '/docs/project-phases-budget' },
-      { title: 'Project Accounting', href: '/docs/final-spreadsheet' },
       { title: 'Ongoing Support', href: '/docs/ongoing-support' },
     ],
   },

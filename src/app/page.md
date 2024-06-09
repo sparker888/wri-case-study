@@ -1,5 +1,5 @@
 ---
-title: WRI Website Project Overview
+title: WRI Website Project Case Study
 ---
 
 This page leads to an Executive Summary below. To jump to a specific section, use the navigation to the left or select a group card below. {% .lead %}
@@ -20,13 +20,13 @@ Feel free to navigate through the sections that interest you, but for a quick su
 
 ---
 
-# Executive Summary
+# An event site that performs!
 
-![WRI Website Project Summary.](/images/gravital-slide-wri.png)
+![WRI Website Case Study.](/images/gravital-slide-wri.png)
 
-## We've Done It!
+## We Broke Records!
 
-We have achieved our key goals for the new WRI website:
+We have achieved our key goals using Jamstack technology for Wheel Rail Seminars new conference site for WRI 2024:
 
 #### A. Better Promote and Sell the WRI Conference
 
@@ -247,49 +247,38 @@ By leveraging these technologies and practices, we have crafted a high-performan
 
 The WRI website project is a success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project was completed within five percent of budget! Here's a breakdown of the project phases listing the budgeted and actual hours of work.
 
-## Project Totals
+## Event Attendance Totals
 
 {% table %}
 
-- Phase {% width="50%" %}
-- Budget  {% width="25%" %}
-- Actual  {% width="25%" %}
+- Attendee {% width="50%" %}
+- 2023  {% width="25%" %}
+- 2024  {% width="25%" %}
 
 ---
 
-- Phase 1 - CONTENT{% width="50%" %}
-- 19 hrs.  {% width="25%" %}
-- 20 hrs.  {% width="25%" %}
+- Rail Transit Seminar{% width="50%" %}
+- tbd  {% width="25%" %}
+- tbd  {% width="25%" %}
 
 ---
 
-- Phase 2 - DESIGN {% width="50%" %}
-- 37.5 hrs. {% width="25%" %}
-- 37.5 hrs.  {% width="25%" %}
+- Principles Course Seminar {% width="50%" %}
+- tbd {% width="25%" %}
+- tbd  {% width="25%" %}
 
 ---
 
-- Phase 3 - DEVELOPMENT (Build) {% width="50%" %}
-- 121.75 hrs.  {% width="25%" %}
-- 125 hrs.  {% width="25%" %}
+- Heavy Haul Seminar {% width="50%" %}
+- tbd  {% width="25%" %}
+- tbd  {% width="25%" %}
+
 
 ---
 
-- Phase 4 - REVISIONS {% width="50%" %}
-- 21 hrs.  {% width="25%" %}
-- 27.25 hrs. {% width="25%" %}
-
----
-
-- Phase 5 - TEST & LAUNCH {% width="50%" %}
-- 5.25 hrs.  {% width="25%" %}
-- 5.75 hrs.  {% width="25%" %}
-
----
-
-- TOTAL PROJECT {% width="50%" %}
-- 204.5 hrs.  {% width="25%" %}
-- 215.5 hrs.  {% width="25%" %}
+- TOTAL ATTENDANCE {% width="50%" %}
+- tbd  {% width="25%" %}
+- tbd  {% width="25%" %}
 
 {% /table %}
 
@@ -305,4 +294,4 @@ For more detailed information and to download the final working project spreadsh
 
 ### Thank you
 
-I appreciate Gordon's willingness to make this project happen and for the team's support in getting it done. Thank you!
+I appreciate the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped with this project. Thank you!

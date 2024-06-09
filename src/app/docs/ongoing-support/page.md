@@ -18,8 +18,6 @@ The foundation has been set. We have established a platform and process utilizin
 
 ### Archive Management
 
-![Archive Management](/images/wri-archive.png)
-
 With WRI 2024 as our template in a Git repository and live on Netlify, we have prepared for future archiving. Annually, we can seamlessly link to the previous year's event, including speakers, bios, and abstracts.
 
 To improve branding, enhancing the archive page to reflect the new website's design post-WRI 2024 is advisable. I suggest designing a new archive page that complements the new website’s aesthetics.
@@ -32,24 +30,5 @@ Routine updates are crucial for the upkeep of any digital platform. I will manag
 
 ### Periodic Technology Updates
 
-![Nextjs New Features of 13 graphic](/images/nextjs-new-features.webp)
-
 As technology evolves, occasional updates to our software stack, including React and Next.js, will be necessary. While our current setup requires minimal maintenance, we should allocate several hours annually to this function, with additional time for significant platform updates, which typically occur every one to two years.
 
-### Additional Content into Storyblok
-
-![Sponsors](/images/sponsors.png)
-
-Our current CMS setup efficiently manages speakers, bios, and abstracts for events. Expanding it to include other content types, such as sponsors, is feasible but will require some planning, especially for managing logo images.
-
-We are currently using Storyblok's free tier for WRI 2024. A discussion on whether to continue with new free accounts annually or to upgrade to their paid service is necessary. We can discuss the limits of the free tier of service when the time is right. There are options to continue using the service at this tier, but it may require more than one account.
-
-### Additional Cvent Services
-
-![Cvent Appointments Premium](/images/cvent-appts-premium.png)
-
-Finally, I suggest that we explore a wider array of Cvent services for our clients, as introduced in [Cvent Integration](https://teal-zuccutto-fc6e79.netlify.app/docs/cvent-integration#additional-cvent-services).
-
-My current training with Cvent is foundational, and I am open to a discussion on a mutual investment in advanced training to broaden our expertise and enhance our service offerings.
-
-Thank you once again for this opportunity, and my heartfelt thanks to the team for their support and assistance.
