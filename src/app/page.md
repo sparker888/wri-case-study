@@ -263,7 +263,7 @@ The WRI website project was a huge success. We met our key goals and objectives 
 
 ### A Happy Client!
 
-> "The work Steve and the entire WRS team accomplished in designing and building the WRI 2024 website was instrumental in making this year's conference a success. We broke multiple attendance records, setting the stage for success as we split the conference into two WRI conferences starting in 2025. I am excited about the ongoing improvements of the website to continue to promote our events and grow the Wheel/Rail Interaction engineering community."
+> "The work Steve and the WRS team accomplished in designing and building our new WRI 2024 website was instrumental in making this year's conference a success. We broke multiple attendance records, setting the stage for success as we split the conference into two WRI conferences starting in 2025. I look forward to ongoing improvements to the website as we continue to grow the Wheel/Rail Interaction engineering community."
 > 
 > — Gordon Bachinsky, Founder and President, Wheel Rail Seminars
 
