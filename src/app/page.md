@@ -26,6 +26,8 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records! Not only did we meet our objectives, but we also significantly increased traffic by 8%, boosted conversions by an impressive 16.5%, and saw a remarkable 25% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit Seminar and the Principles Course Seminar. Our strategic design, coupled with streamlined information organization and registration processes, ensured an exceptional user experience, proving that our innovative approach delivers outstanding results.
 
+As with any successful website redesign project, we carried out our work based on accomplishing three general goals:
+
 #### A. Better Promote and Sell the WRI Conference
 
 #### B. Improve Information Organization & Event Registration
@@ -54,7 +56,7 @@ One of the most time consuming tasks in updating the WRI website for each annual
 
 ### Additional Objectives
 
-I am pleased to report that we have achieved or are in the process of achieving a number of additional objectives:
+As the developer, I also set my sights on achieving a number of additional objectives more specifically related to the code and user experience:
 
 #
 
