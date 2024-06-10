@@ -50,9 +50,9 @@ export function Hero() {
                 Light. Speed.
               </p>
               <p className="mt-3 text-2xl tracking-tight font-header text-slate-400">
-                See how WRI's new Jamstack website increased traffic 8%,
-                increased conversions 16.5% and increased conference attendance
-                by a whopping 25%. Let's go!
+                See how WRI's new Jamstack website increased traffic 12%,
+                increased conversions 23.5% and increased conference attendance
+                by a whopping 32%. Let's go!
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button

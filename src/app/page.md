@@ -26,7 +26,7 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 Thanks for checking out my website redesign case study! I'm very excited to present how our team achieved impressive results with this redesign for WRI and provide a framework for future event website redesigns. 
 
-We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records in the process! Not only did we meet our broader goals, but we also significantly increased traffic by 8%, boosted conversions by an impressive 16.5%, and saw a remarkable 25% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar. 
+We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records in the process! Not only did we meet our broader goals, but we also significantly increased traffic by 8%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar. 
 
 Our strategic design, coupled with streamlined information organization and registration processes, ensured an exceptional user experience, proving that our innovative approach delivers outstanding results.
 
@@ -239,31 +239,33 @@ The WRI website project was a huge success. We met our key goals and objectives 
 
 - Rail Transit Seminar{% width="50%" %}
 - 161 {% width="25%" %}
-- 196 {% width="25%" %}
+- 206 {% width="25%" %}
 
 ---
 
 - Principles Course Seminar {% width="50%" %}
 - 198 {% width="25%" %}
-- 239 {% width="25%" %}
+- 256 {% width="25%" %}
 
 ---
 
 - Heavy Haul Seminar {% width="50%" %}
 - 163 {% width="25%" %}
-- 216 {% width="25%" %}
+- 229 {% width="25%" %}
 
 ---
 
 - TOTAL ATTENDANCE {% width="50%" %}
 - 522 {% width="25%" %}
-- 651 {% width="25%" %}
+- 691 {% width="25%" %}
 
 {% /table %}
 
 ### A Happy Client!
 
-Gordon, if I could get a few words from you, or I can pen a few ideas if you wish.
+> "The work Steve and the entire WRS team accomplished in designing and building the WRI 2024 website was instrumental in making this year's conference a success. We broke multiple attendance records, setting the stage for success as we split the conference into two WRI conferences starting in 2025. I am excited about the ongoing improvements of the website to continue to promote our events and grow the Wheel/Rail Interaction engineering community."
+> 
+> — Gordon Bachinsky, Founder and President, Wheel Rail Seminars
 
 ### Want more info?
 
