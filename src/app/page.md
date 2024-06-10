@@ -24,7 +24,11 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 ## We broke multiple attendance records!
 
-We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records! Not only did we meet our objectives, but we also significantly increased traffic by 8%, boosted conversions by an impressive 16.5%, and saw a remarkable 25% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit Seminar and the Principles Course Seminar. Our strategic design, coupled with streamlined information organization and registration processes, ensured an exceptional user experience, proving that our innovative approach delivers outstanding results.
+Thanks for checking out my website redesign case study! I'm very excited to present how our team achieved impressive results with this redesign for WRI and provide a framework for future event website redesigns. 
+
+We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records in the process! Not only did we meet our broader goals, but we also significantly increased traffic by 8%, boosted conversions by an impressive 16.5%, and saw a remarkable 25% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar. 
+
+Our strategic design, coupled with streamlined information organization and registration processes, ensured an exceptional user experience, proving that our innovative approach delivers outstanding results.
 
 As with any successful website redesign project, we carried out our work based on accomplishing three general goals:
 
