@@ -1,26 +1,24 @@
 ---
-title: WRI Website Case Study
+title: WRI Website Case Study Summary
 ---
 
-This page leads to an Executive Summary below. To jump to a specific section, use the navigation to the left or select a group card below. {% .lead %}
+Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="Jamstack Delivers!" icon="lightbulb" href="/docs/best-stack" description="What is Jamstack and what benefits do React websites deliver to WRI 2024?" /%}
+{% quick-link title="Jamstack Delivers!" icon="lightbulb" href="/docs/best-stack" description="What is Jamstack? How did a Light & Fast website deliver these results for WRI 2024?" /%}
 
-{% quick-link title="WRI 2024 Design & Build" icon="presets" href="/docs/nextjs-react" description="Learn how the architecture and content structure is organized in Next.js." /%}
+{% quick-link title="WRI 2024 Project Overview" icon="presets" href="/docs/nextjs-react" description="Learn how we analyzed historic user behavior and developed a better online experience!" /%}
 
-{% quick-link title="Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Learn the power of the integrations with third-party plugins and analytics." /%}
+{% quick-link title="Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Witness the power of key integrations for event marketing using Cvent, a powerful CMS named Storyblok and other third-party plugins." /%}
 
 {% quick-link title="Project Summary" icon="installation" href="/docs/goals-project-scope" description="A wrap-up of the project from goals to design to the final build and launch." /%}
 
 {% /quick-links %}
 
-Feel free to navigate through the sections that interest you, but for a quick summary of the project, see the details below.
-
 ---
 
-#  <a id="jamstack-performance"></a>This Jamstack event site performs!
+# This Jamstack event site performs!
 
 ![WRI Website Case Study.](/images/gravital-slide-wri.png)
 
@@ -76,7 +74,7 @@ I am pleased to report that we have achieved or are in the process of achieving 
 
 8. **Reduced Privacy Exposure**
 
-See the [WRI 2024 Goals](https://teal-zuccutto-fc6e79.netlify.app/docs/goals-project-scope) for more details on this subject .
+See the [WRI 2024 Goals](https://gravital-wri-case-study.netlify.app/docs/goals-project-scope) for more details on this subject .
 
 ### We focused on several specific areas:
 
@@ -88,30 +86,6 @@ In determining the scope of the project, we asked ourselves how we can improve s
 - Hotel Reservations
 - Sponsors and Sponsorship
 - InfoZone and ExpoZone products
-
-### The Project Scope
-
-In addition to this focus, there were some limits to the project in terms of its scope. Here are the main points from the requirements docs.
-
-1. Content for the project would be pulled from 2023 website (with some polishing).
-
-2. Ten page templates were to be designed and built (and filled with dummy content ready for 2024 editing which would happen separately).
-
-3. The Registration system would split into two paths that lead to clear steps for collecting personal information, selecting the appropriate package, and an easy check-out system for both physical and virtual events.
-
-4. There would be no site search.
-
-5. No analytics products were specified in the project scope, but we later agreed to use Plausible Analytics.
-
-6. No database would be needed as the payment system would be a 3rd party .
-
-7. A CDN host with a generous free tier would likely be sufficient for the website, but an upgrade to the first paid tier is $19/mo. might be necessary.
-
-8. No decision was made on a code repository or website host, so I agreed to use mine until we crossed that bridge (I created a [WRS GitHub account](https://github.com/wrs-dev/wri-2024-website) for the code and the site is currently being hosted on [Netlify](https://netlify.com))
-
-9. I would perform just the basics of Google Lighthouse optimization to keep the cost down.
-
-See the [Project Scope and Budget](https://teal-zuccutto-fc6e79.netlify.app/docs/project-phases-budget) for more details on this subject.
 
 ### Project Phases
 
@@ -135,19 +109,19 @@ The team first created wireframes to help us proportion the content for the desi
 
 #### User Journey
 
-The team reviewed both analytics and user flow through the site to determine how we could improve its organization, particularly for the registration process. Using our wireframes and user flow, Randy Karey then designed the look of the main pages. He kept recognizable brand elements, yet created a design that's much more modern and forward looking.
+The team reviewed both analytics and user flow through the site to determine how we could improve its organization, particularly for the registration process. Using our notes, wireframes and user flow diagrams, we designed the look and feel of the main pages. We kept recognizable brand elements, yet created a design system that would enable future iteration.
 
 ![Journey](/images/wireframe-wri.jpg)
 
 #### Project Build
 
-With Randy's design approved, I built the site using the React framework (more info below). This was accomplished in several phases where I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and element until the site was fully built.
+Once the website design 'on paper' was approved, I built the site using the React which is a web development framework that enables me to create code that conforms to Jamstack principles. This was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
 
 ![WRI Chicago Header](/images/wri-chicago-header.jpg)
 
 ## Key Integrations
 
-Our project has successfully integrated essential services to enhance the WRI 2024 website's functionality and user experience. Namely, we integrated Cvent's registration system, but I also implemented Storyblok, a popular Content Management System (CMS) and Plausible Analytics. Here are a few highlights:
+Our project has successfully integrated essential services to enhance the WRI 2024 website's functionality and user experience. Namely, we integrated Cvent's registration system and Storyblok for speaker and topic management, a popular Content Management System (CMS) and Plausible Analytics. Here are a few highlights:
 
 ![Cvent Logo](/images/cvent-logo.png)
 
@@ -192,7 +166,7 @@ By separating the management of speaker information from the website code, CMSs 
 
 ## The Result: A beautiful, functional, high-performance website that scored BIG on the Google's Lighthouse test!
 
-WRI 2024 was soft launched in December 2023 with our home page, a few links, and the Cvent registration form pages. Since that time, we have added seminar info, speaker cards, bios & abstract pages and sponsor pages. With the site mostly completed, I then tested the performance using Google Lighthouse test. There were a few issues that needed addressing, and I optimized the code to give us the following scores:
+WRI 2024 was soft launched in December 2023 with our home page, a few links, and the Cvent registration form pages. Since that time, we have added seminar info, speaker cards, bios & abstract pages and sponsor pages. With the site mostly completed, I then tested the performance using Google Lighthouse test. There were a few issues that needed addressing, and I optimized the code to give us the following scores (at the time of this writing in February 2024):
 
 ![High Performance.](/images/lighthouse-score-performance.png)
 
@@ -227,9 +201,7 @@ TailwindCSS, renowned for its utility-first approach, empowers developers to dir
 
 ### GitHub Repo
 
-[See the site code on GitHub](http://localhost:3000/docs/installation)
-
-GitHub is the code repository known throughout the world. Operated by Microsoft, it is home to over 200,000,000 code bases, both public and private. GitHub uses a standardized system of code control called Git.
+GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store our code. GitHub is home to over 200,000,000 code bases, both public and private. They uses a standardized system of code control called Git we utilize to manage the website's codebase.
 
 Version control is indispensable in contemporary development workflows, particularly with GitHub, which streamlines collaboration by enabling changes to be tracked and reviewed. Integrating Next.js projects with GitHub not only optimizes the website work, but also ensures more streamlined updates and superior code quality, enhancing the the longevity of the code base.
 
@@ -241,13 +213,13 @@ Hosting Next.js applications on Netlify presents numerous advantages, including 
 
 ### Summary of Jamstack Platform Benefits
 
-By leveraging these technologies and practices, we have crafted a high-performance, secure, visible, and composable website for WRI 2024. Constructed on the Jamstack platform, it not only delivers exceptional user experiences and achieves high Google Lighthouse scores but also provides a delightful editor experience updating content. Designed for agility, it allows for cloning a new site from the original template year after year and serves as a dynamic seminar archive, showcasing past event speakers and abstracts for posterity.
+By leveraging these technologies and practices, we crafted a high-performance, secure, visible, and composable website for this WRI 2024 event site. Constructed using Jamstack principles, it not only delivers exceptional user experiences and high Google Lighthouse scores but delivers where it counts - conversions and revenue. It's also designed for long-term performance. By cloning repos and reconfiguring content, new websites are created from the original template, year after year, serving as a dynamic conference archive, showcasing past event speakers, abstracts and presentations for posterity.
 
 ---
 
-## Project Summary
+## Project Summary (i.e. the bottom line)
 
-The WRI website project is a success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project was completed within five percent of budget! Here's a breakdown of the project phases listing the budgeted and actual hours of work.
+The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project exceeded expectations and delivered measurable result!.
 
 ## Event Attendance Totals
 
@@ -283,15 +255,13 @@ The WRI website project is a success. We met our key goals and objectives and ar
 
 {% /table %}
 
-### A few details
+### A Happy Client!
 
-Please be aware that an additional expenditure was approved for Randy to create his designs within Adobe XD, a crucial step to streamline the development process. We exceeded the budget in Phase 3 in part due to changes from the initial design and the need to include more detailed content on each seminar page than originally anticipated.
+Gordon, if I could get a few words from you, or I can pen a few ideas if you wish.
 
-I need to emphasize that the original project scope did not include incorporating content specific to WRI 2024, such as details about speakers and sponsors. Instead, pages were built with 'dummy' content from WRI 2023, with the intention of updating it for the 2024 event later. So 2024 conference content has been added using some of the available retainer hours in January and February.
+### Want more info?
 
-### More details available
-
-For more detailed information and to download the final working project spreadsheet, please visit the [Project Summary](https://teal-zuccutto-fc6e79.netlify.app/docs/goals-project-scope). In addition, I'm willing to conduct a project wrap-up session with the team to answer any questions and talk about next steps.
+It's easiest to contact me directly using [this form](https://gravitaldigital.com/#contact). I'm considering a few interviews and I'm also willing to make a free assessment of your needs and talk with you about potential next steps.
 
 ### Thank you
 

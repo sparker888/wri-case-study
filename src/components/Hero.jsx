@@ -7,7 +7,7 @@ import { Button } from '@/components/Button'
 import { HeroBackground } from '@/components/HeroBackground'
 import blurCyanImage from '@/images/blur-cyan.png'
 import blurIndigoImage from '@/images/blur-indigo.png'
-import wriHome from '@/images/wri-home.jpeg'
+import wriHome from '@/images/wri-home.jpg'
 
 const codeLanguage = 'javascript'
 const code = `export default {
@@ -50,18 +50,25 @@ export function Hero() {
                 Light. Speed.
               </p>
               <p className="mt-3 text-2xl tracking-tight font-header text-slate-400">
-                See how WRI's new Jamstack website increased traffic 7%, increased conversions 16.5% and increased conference attendance by a whopping 25%. Let's go!
+                See how WRI's new Jamstack website increased traffic 8%,
+                increased conversions 16.5% and increased conference attendance
+                by a whopping 25%. Let's go!
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button
                   href="https://gravitaldigital.com/#contact"
-
                   target="_blank"
                   className="text-white bg-sky-600 hover:bg-white hover:text-red-700"
                 >
                   Contact me
                 </Button>
-                <Button href="https://gravital-wri-case-study.netlify.app#jamstack-performance" className="text-white bg-gradient-to-br from-purple-700 to-red-700">Let's go!</Button>
+                <Button
+                  href="https://wri.wheel-rail-seminars.com/"
+                  target="_blank"
+                  className="text-white bg-gradient-to-br from-purple-700 to-red-700"
+                >
+                  Visit WRI 2024
+                </Button>
               </div>
             </div>
           </div>
