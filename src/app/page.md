@@ -22,9 +22,9 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 ![WRI Website Case Study.](/images/gravital-slide-wri.png)
 
-## We Broke Records!
+## We broke multiple attendance records!
 
-We achieved our key goals for Wheel Rail Seminars new Jamstack site, and broke a few records!
+We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records! Not only did we meet our objectives, but we also significantly increased traffic by 8%, boosted conversions by an impressive 16.5%, and saw a remarkable 25% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit Seminar and the Principles Course Seminar. Our strategic design, coupled with streamlined information organization and registration processes, ensured an exceptional user experience, proving that our innovative approach delivers outstanding results.
 
 #### A. Better Promote and Sell the WRI Conference
 
