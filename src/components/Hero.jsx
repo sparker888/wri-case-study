@@ -61,7 +61,7 @@ export function Hero() {
                 >
                   Contact me
                 </Button>
-                <Button href="https://gravital-wri-case-study.netlify.app" className="text-white bg-gradient-to-br from-purple-700 to-red-700 ">Get started</Button>
+                <Button href="https://gravital-wri-case-study.netlify.app#jamstack-performance" className="text-white bg-gradient-to-br from-purple-700 to-red-700">Let's go!</Button>
               </div>
             </div>
           </div>

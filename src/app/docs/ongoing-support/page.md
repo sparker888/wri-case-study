@@ -10,7 +10,7 @@ In my role at Wheel Rail Seminars, I am dedicated to providing continuous improv
 
 ---
 
-![HONOLULU 2028](/images/2028-skyline.jpg)
+![HONOLULU 2028](/images/gravital-brand.png)
 
 ## Annual Event Resets
 

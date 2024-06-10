@@ -20,13 +20,13 @@ Feel free to navigate through the sections that interest you, but for a quick su
 
 ---
 
-# An event site that performs!
+#  <a id="jamstack-performance"></a>This Jamstack event site performs!
 
 ![WRI Website Case Study.](/images/gravital-slide-wri.png)
 
 ## We Broke Records!
 
-We have achieved our key goals using Jamstack technology for Wheel Rail Seminars new conference site for WRI 2024:
+We achieved our key goals for Wheel Rail Seminars new Jamstack site, and broke a few records!
 
 #### A. Better Promote and Sell the WRI Conference
 
@@ -35,6 +35,7 @@ We have achieved our key goals using Jamstack technology for Wheel Rail Seminars
 #### C. Design a system for Easy Replication year after year to have an Archive
 
 #
+
 ## Expanding on these Goals
 
 ### Improved Design and Branding
@@ -75,7 +76,7 @@ I am pleased to report that we have achieved or are in the process of achieving 
 
 8. **Reduced Privacy Exposure**
 
-See the [WRI 2024 Goals](https://teal-zuccutto-fc6e79.netlify.app/docs/goals-project-scope) for more details on this subject       .
+See the [WRI 2024 Goals](https://teal-zuccutto-fc6e79.netlify.app/docs/goals-project-scope) for more details on this subject .
 
 ### We focused on several specific areas:
 
@@ -186,7 +187,8 @@ Storyblok transforms content management with its intuitive content management sy
 ![Example Speakers](/images/storyblok-example-speakers.png)
 
 By separating the management of speaker information from the website code, CMSs like Storyblok give editors the ability to control content on their timeline. As you can see in these images, it's quick and easy to create, edit and publish Kevin Oldknow's bio and abstract in a single form accessible in any web browser.
-___
+
+---
 
 ## The Result: A beautiful, functional, high-performance website that scored BIG on the Google's Lighthouse test!
 
@@ -252,33 +254,32 @@ The WRI website project is a success. We met our key goals and objectives and ar
 {% table %}
 
 - Attendee {% width="50%" %}
-- 2023  {% width="25%" %}
-- 2024  {% width="25%" %}
+- 2023 {% width="25%" %}
+- 2024 {% width="25%" %}
 
 ---
 
 - Rail Transit Seminar{% width="50%" %}
-- 161  {% width="25%" %}
-- 196  {% width="25%" %}
+- 161 {% width="25%" %}
+- 196 {% width="25%" %}
 
 ---
 
 - Principles Course Seminar {% width="50%" %}
 - 198 {% width="25%" %}
-- 239  {% width="25%" %}
+- 239 {% width="25%" %}
 
 ---
 
 - Heavy Haul Seminar {% width="50%" %}
-- 163  {% width="25%" %}
-- 216  {% width="25%" %}
-
+- 163 {% width="25%" %}
+- 216 {% width="25%" %}
 
 ---
 
 - TOTAL ATTENDANCE {% width="50%" %}
-- 522  {% width="25%" %}
-- 651  {% width="25%" %}
+- 522 {% width="25%" %}
+- 651 {% width="25%" %}
 
 {% /table %}
 
