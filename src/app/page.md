@@ -28,7 +28,7 @@ Thanks for checking out my website redesign case study! I'm very excited to pres
 
 We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records in the process! Not only did we meet our broader goals, but we also significantly increased traffic by 12%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar.
 
-Our strategic design, coupled with streamlined information organization and registration processes, ensured an exceptional user experience, proving that our innovative approach delivers outstanding results.
+Our strategic user-centered design, guided by streamlining information organization and simplifying the registration processes, has helped to create a more engaging experience as evidenced by website analytics, proving that our innovative approach delivers outstanding results.
 
 As with any successful website redesign project, we carried out our work based on accomplishing three general goals:
 
@@ -42,9 +42,9 @@ As with any successful website redesign project, we carried out our work based o
 
 ## Expanding on these Goals
 
-### Improved Design and Branding
+### Improved Design for Usability and Branding
 
-The new design of the WRI website meets the objective of improving the promotion and sales of the WRI Conference to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal.
+The new design of the WRI website needed to not only improve usability in terms of being fast and easy to navigate, but support a longer-term objective of improving the reach of the WRI Conference message to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal (working on this now - need to explain how we expanded reach).
 
 ### Streamlined Information and Registration Process
 
