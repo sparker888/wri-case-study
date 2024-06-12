@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
       )}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full bg-white dark:bg-slate-900">
+      <body className="flex min-h-full bg-white dark:bg-black">
         <Providers>
           <Layout>{children}</Layout>
         </Providers>

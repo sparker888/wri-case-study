@@ -1,24 +1,24 @@
-import { Fragment } from 'react'
-import Image from 'next/image'
-import clsx from 'clsx'
-import { Highlight } from 'prism-react-renderer'
+import { Fragment, useEffect, useRef } from 'react';
+import Image from 'next/image';
+import clsx from 'clsx';
+import { Highlight } from 'prism-react-renderer';
 
-import { Button } from '@/components/Button'
-import { HeroBackground } from '@/components/HeroBackground'
-import blurCyanImage from '@/images/blur-cyan.png'
-import blurIndigoImage from '@/images/blur-indigo.png'
-import wriHome from '@/images/wri-home.jpg'
+import { Button } from '@/components/Button';
+import { HeroBackground } from '@/components/HeroBackground';
+import blurCyanImage from '@/images/blur-cyan.png';
+import blurIndigoImage from '@/images/blur-indigo.png';
+import wriHome from '@/images/wri-home.jpg';
 
-const codeLanguage = 'javascript'
+const codeLanguage = 'javascript';
 const code = `export default {
   strategy: 'predictive',
   engine: {
     cpus: 12,
     backups: ['./storage/cache.wtf'],
   },
-}`
+}`;
 
-const tabs = [{ name: 'http://wri.wheel-rail-seminars.com', isActive: true }]
+const tabs = [{ name: 'http://wri.wheel-rail-seminars.com', isActive: true }];
 
 function TrafficLightsIcon(props) {
   return (
@@ -27,13 +27,58 @@ function TrafficLightsIcon(props) {
       <circle cx="21" cy="5" r="4.5" />
       <circle cx="37" cy="5" r="4.5" />
     </svg>
-  )
+  );
 }
 
 export function Hero() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      console.log('Video element found:', video);
+      video.play().catch(error => console.error('Error playing video:', error));
+      setTimeout(() => {
+        video.pause();
+      }, 5000);
+    }
+  }, []);
+
+  const handleMouseEnter = () => {
+    const video = videoRef.current;
+    if (video) {
+      video.play().catch(error => console.error('Error playing video on hover:', error));
+    }
+  };
+
+  const handleMouseLeave = () => {
+    const video = videoRef.current;
+    if (video) {
+      video.pause();
+    }
+  };
+
   return (
-    <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-4.75rem] dark:pb-32 dark:pt-[4.75rem]">
-      <div className="py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
+    <div className="relative overflow-hidden bg-black dark:-mb-32 dark:mt-[-4.75rem] dark:pb-32 dark:pt-[4.75rem]">
+  <div className="absolute inset-0 flex justify-center">
+    <div className="relative w-full max-w-[1500px]">
+      <video
+        className="object-cover w-full h-auto opacity-30"
+        ref={videoRef}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        muted
+        loop
+        autoPlay
+        playsInline
+      >
+        <source src="/video/light-speed-matte.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <div className="absolute inset-0 opacity-75 bg-gradient-to-b from-transparent to-black"></div>
+  <div className="relative py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
         <div className="grid items-center max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-16 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
             <Image
@@ -46,13 +91,12 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="pb-2 text-5xl font-black text-transparent bg-gradient-to-br from-purple-700 to-red-700 bg-clip-text font-tagline sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
-                Light. Speed.
+              <p className="pb-2 text-5xl font-black text-transparent bg-gradient-to-br from-orange-500 to-red-800 bg-clip-text font-tagline sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
+                Fast. 
+                Track.
               </p>
-              <p className="mt-3 text-2xl tracking-tight font-header text-slate-400">
-                See how WRI's new Jamstack website helped increased traffic 12%,
-                increase conversions 23.5% and increase conference attendance
-                by a whopping 32%. Let's go!
+              <p className="mt-3 text-2xl tracking-tight font-header text-slate-200">
+                See how WRI's new Jamstack website helped increase traffic 12%, increase conversions 23.5% and increase conference attendance by a whopping 32%. Let's go!
               </p>
               <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
                 <Button
@@ -65,7 +109,7 @@ export function Hero() {
                 <Button
                   href="https://wri.wheel-rail-seminars.com/"
                   target="_blank"
-                  className="text-white bg-gradient-to-br from-purple-700 to-red-700"
+                  className="text-white bg-gradient-to-br from-orange-500 to-red-700"
                 >
                   Visit WRI 2024
                 </Button>
@@ -147,5 +191,5 @@ export function Hero() {
         </div>
       </div>
     </div>
-  )
+  );
 }
