@@ -63,7 +63,7 @@ export function Hero() {
   <div className="absolute inset-0 flex justify-center">
     <div className="relative w-full max-w-[1500px]">
       <video
-        className="object-cover w-full h-auto opacity-30"
+        className="object-cover w-full h-auto opacity-50"
         ref={videoRef}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
@@ -72,7 +72,7 @@ export function Hero() {
         autoPlay
         playsInline
       >
-        <source src="/video/light-speed-matte.webm" type="video/webm" />
+        <source src="/video/chicago-trains.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

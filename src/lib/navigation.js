@@ -1,6 +1,6 @@
 export const navigation = [
   {
-    title: 'WRI Website Case Study',
+    title: 'Report by Stephen Parker @sparker888',
     links: [
       { title: 'Executive Summary', href: '/' },
     ],

@@ -20,7 +20,7 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 # This Jamstack event site performs!
 
-![WRI Website Case Study.](/images/gravital-slide-wri.png)
+![A Light. Speed Example.](/images/gravital-slide-wri.png)
 
 ## We broke multiple attendance records!
 
