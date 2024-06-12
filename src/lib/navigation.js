@@ -1,6 +1,6 @@
 export const navigation = [
   {
-    title: 'Report by Stephen Parker @sparker888',
+    title: 'by Stephen Parker @sparker888',
     links: [
       { title: 'Executive Summary', href: '/' },
     ],
