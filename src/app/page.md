@@ -52,7 +52,7 @@ Wheel Rail Seminars has excelled in creating events and environments in which th
 
 ## Envisioning a new WRI website
 
-As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience first and foremost, select the right tech stack for performance, and integrate features and third-party services where it makes sense. I've branded the phrase "Light. Speed." to showcase my love of high-performance Jamstack technology centered on making websites fast by keeping the code as minimal as possible (light) and achieve what I feel are the three pillars to a successful website architecture: Speed, Flexibility and Reliability.
+To ensure a successful website redesign project, we carried out our work using my three general rules as a website producer -- Keep the design centered around the user experience first and foremost, select the right tech stack for the job, and integrate features and third-party services where it makes sense. I've branded the phrase "Light. Speed." to showcase my love of high-performance Jamstack technology centered on making websites fast and manageable by keeping the code as minimal as possible (light) and achieve what I feel are the three pillars to a successful website architecture: Speed, Flexibility and Reliability.
 
 ![WRI Focus Topic!](/images/focus-topic.png)
 
