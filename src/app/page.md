@@ -22,7 +22,7 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 ![We Broke Records!](/images/gravital-slide-wri.png)
 
-## We broke multiple attendance records!
+## 🎉 Woot! We broke records!!
 
 Welcome to the Wheel Rail Interaction (WRI) 2024 case study. Here we'll review how I worked with the Wheel Rail Seminars team to redesign the company's event website, which began in early 2023 and culminated in the WRI 2024 Conference held in Chicago in May 2024. I'll share our vision to enhance the company's brand, better showcase the event speakers, improve technical performance, and help users more easily navigate and register for the event.
 
