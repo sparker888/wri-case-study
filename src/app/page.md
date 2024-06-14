@@ -74,17 +74,17 @@ _C. Support Replication & Archival of Past Events using a Clonable Codebase_
 
 The new design of the WRI website needed to not only improve usability in terms of being fast and easy to navigate, but support a longer-term objective of improving the reach of the WRI Conference message to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal (working on this now - need to explain how we expanded reach).
 
-### Streamlined the Registration Process
+### A Streamlined Registration Process
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
 
 ![Flexibility.](/images/flexibility.png)
 
-### Providing Editors the Power to Edit Website Content Directly
+### Empowering Editors to Directly Access Content
 
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
-### Easily Clone the Codebase for Future Years
+### Implement Versioning for Future Events
 
 Building the WRI website codebase with the popular React library using Git version control provides us with important benefits. During the build, using version control allowed us to set up a draft website for content review before going live. This same system will enable us to replicate the codebase year over year and go back to see old sites at any point in time. Most importantly, Git will serve as our means of cloning the codebase for each annual event, saving us valuable time while preserving an archive of past events.
 
