@@ -18,29 +18,43 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 ---
 
-# This Jamstack event site performs!
+# Executive Summary
 
-![A Light. Speed Example.](/images/gravital-slide-wri.png)
+![We Broke Records!](/images/gravital-slide-wri.png)
 
 ## We broke multiple attendance records!
 
-Thanks for checking out my website redesign case study! I'm very excited to present how our team achieved impressive results with this redesign for WRI and provide a framework for future event website redesigns.
+Welcome to the Wheel Rail Interaction (WRI) 2024 case study. This project case study showcases the impressive transformation of the WRI website by a team of talented designers, marketers and developers as produced by myself as Gravital Digital. My approach to website production focuses on a number of important areas that have proven to provide successful results over the 30 years that I have been working the web.
 
-We achieved our key goals for Wheel Rail Seminars' new Jamstack site and broke a few records in the process! Not only did we meet our broader goals, but we also significantly increased traffic by 12%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar.
+As the WRS team, we achieved our key goals for Wheel Rail Seminars', and ultimately increased traffic by 12%, boosted conversions by an impressive 23.5%, and the company saw a remarkable 32% rise in overall attendees to their conference in Chicago in May 2024. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar. You can see specific numbers below if you're interested.
 
-Our strategic user-centered design, guided by streamlining information organization and simplifying the registration processes, has helped to create a more engaging experience as evidenced by website analytics, proving that our innovative approach delivers outstanding results.
+## First, quick introductions
 
-As with any successful website redesign project, we carried out our work based on accomplishing three general goals:
+![The Team!](/images/wrs-seattle.png)
 
-#### A. Better Promote and Sell the WRI Conference
+I'm pleased to be a part of [the WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars) and together with a talented group of designers and marketers, combined with my skills as a modern web developer, we created a product that performed flawlessly, drives revenue, and will be an easy system to manage thanks to Jamstack and smart integrtations such as Storyblock, but first, let's review the goals of the website redesign project.'
 
-#### B. Improve Information Organization & Event Registration
+# Envisioning a new WRI website
 
-#### C. Design a system for Easy Replication year after year to have an Archive
+As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I like to use the term Light. Speed. to represent a fast website built with streamlined tech to for flexibility. Most importantly, the system has to be secure, reliable, compliant and low maintenance.
 
-#
+First and foremost for the Wheel Rail Interaction Conference's new website, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
-## Expanding on these Goals
+![Light. Speed.](/images/speed.png)
+
+# Working with Wheel Rail Seminars
+
+First and foremost, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
+
+As a team, we established several objectives early that would guide the entire process:
+
+*A. Better Promote and Sell the WRI Conference*
+
+*B. Improve Information Organization & Event Registration*
+
+*C. Design a system for Easy Replication year after year to have an Archive*
+
+![Flexibility.](/images/flexibility.png)
 
 ### Improved Design for Usability and Branding
 
@@ -49,6 +63,8 @@ The new design of the WRI website needed to not only improve usability in terms 
 ### Streamlined Information and Registration Process
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
+
+![Reliability.](/images/reliability.png)
 
 ### Ability to Clone the Code Base for Annual Conferences
 
@@ -176,9 +192,9 @@ WRI 2024 was soft launched in December 2023 with our home page, a few links, and
 
 ![High Performance.](/images/lighthouse-score-performance.png)
 
-## How did we achieve this?
+## The technology stars behind the scenes
 
-As you can see, the Google Lighthouse report scores WRI 2024 highly across the board for important categories that define a good website. This was accomplished with lots of work, but largely due to using the world's best web technology stack -- Jamstack. JAM comes from client-side JavaScript, reusable APIs, and prebuilt Markup. The words don't matter as much as what it delivers:
+As you can see, the Google Lighthouse report scores WRI 2024 highly across the board for important categories that define a good website. This was accomplished with lots of work, but we have to tip our hat to incredible advances in recent years in web technology. Gravital, my company, is using the a variety of powerful and flexible solutions together named Jamstack. JAM, coined by the CEO of Netlify,  Matt Biilmann, a few years ago comes from client-side JavaScript, reusable APIs, and prebuilt Markup. The words don't matter as much as what it delivers:
 
 ![Jamstack](/images/powered-by-jamstack.png)
 
@@ -225,7 +241,7 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ## Project Summary (i.e. the bottom line)
 
-The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project exceeded expectations and delivered measurable result!.
+The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project exceeded expectations and delivered measurable result!
 
 ## Event Attendance Totals
 
