@@ -208,11 +208,11 @@ TailwindCSS, renowned for its utility-first approach, empowers developers to dir
 
 ![GitHub](/images/github.webp)
 
-### Managing the Code Base with the GitHub Repository
+### Managing the Codebase with the GitHub Repository
 
-GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store our code. GitHub is home to over 200,000,000 code bases, both public and private. They uses a standardized system of code control called Git we utilize to manage the website's codebase.
+GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store our code. GitHub is home to over 200,000,000 codebases, both public and private. They uses a standardized system of code control called Git we utilize to manage the website's codebase.
 
-Version control is indispensable in contemporary development workflows, particularly with GitHub, which streamlines collaboration by enabling changes to be tracked and reviewed. Integrating Next.js projects with GitHub not only optimizes the website work, but also ensures more streamlined updates and superior code quality, enhancing the the longevity of the code base.
+Version control is indispensable in contemporary development workflows, particularly with GitHub, which streamlines collaboration by enabling changes to be tracked and reviewed. Integrating Next.js projects with GitHub not only optimizes the website work, but also ensures more streamlined updates and superior code quality, enhancing the the longevity of the codebase.
 
 ![Netlify](/images/netlify.webp)
 
@@ -230,7 +230,7 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ## Case Study Summary
 
-The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a code base to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores. 
+The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a codebase to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores. 
 
 The bottom line? Well, let's look at the before and after results that are most important to the client: WRI 2023 attendance compared to WRI 2024 attendance. This is the number that drives the health of the event and growth of the community, and I believe this is a fair comparison since both events were held at the same time of year (May 2023 and June 2024), and both in large, upper Midwest cities — Minneapolis and Chicago:
 
