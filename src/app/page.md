@@ -52,17 +52,15 @@ Wheel Rail Seminars has excelled in creating events and environments in which th
 
 ## Envisioning a new WRI website
 
-As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I like to use the term Light. Speed. to represent a fast website built with streamlined tech to for flexibility. Most importantly, the system has to be secure, reliable, compliant and low maintenance.
+As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I've branded the phrase Light. Speed. to represent a fast website built with streamlined tech to for Speed, Flexibility and Reliability.
 
 ![WRI Focus Topic!](/images/focus-topic.png)
-
-First and foremost for the Wheel Rail Interaction Conference's new website, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
 # Our Goals
 
 First and foremost, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
-![Light. Speed.](/images/speed.png)
+![Speed.](/images/speed.png)
 
 As a team, we established several objectives early that would guide the entire process:
 
@@ -76,23 +74,23 @@ _C. Design a system for Easy Replication year after year to have an Archive_
 
 The new design of the WRI website needed to not only improve usability in terms of being fast and easy to navigate, but support a longer-term objective of improving the reach of the WRI Conference message to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal (working on this now - need to explain how we expanded reach).
 
-![Flexibility.](/images/flexibility.png)
-
 ### Streamlined Information and Registration Process
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
 
-### Ability to Clone the Code Base for Annual Conferences
-
-Building the WRI website codebase with the popular React library using Git version control provides us with important benefits. During the build, using version control allowed us to set up a draft website for content review before going live. This same system will enable us to replicate the codebase year over year and go back to see old sites at any point in time. Most importantly, Git will serve as our means of cloning the codebase for each annual event, saving us valuable time while preserving an archive of past events.
-
-![Reliability.](/images/reliability.png)
+![Flexibility.](/images/flexibility.png)
 
 ### Providing Editors the Power to Edit Website Content Directly
 
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
-## Meeting Management Requirements
+### Ability to Clone the Codebase for Future Years
+
+Building the WRI website codebase with the popular React library using Git version control provides us with important benefits. During the build, using version control allowed us to set up a draft website for content review before going live. This same system will enable us to replicate the codebase year over year and go back to see old sites at any point in time. Most importantly, Git will serve as our means of cloning the codebase for each annual event, saving us valuable time while preserving an archive of past events.
+
+![Reliability.](/images/reliability.png)
+
+## Meeting Business Requirements
 
 The economics of a website redesign is critical to get right. While I'll go into more detail deeper into the case study, working up front with WRS senior leadership to address business requirements done well before we began to envision the look and feel of the new design. Getting this right required conversations around budget, ROI, internal processes and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
 
@@ -142,13 +140,13 @@ Several key services were integrated into the website to enhance the WRI 2024 si
 
 ![Cvent Logo](/images/cvent-logo.png)
 
-## Cvent
+## Cvent Event Management Software
 
 ![Cvent Registration Screen](/images/cvent-register.png)
 
 Using Cvent's Event Registration system, we were able to configure the event to streamlined attendee registration for WRI 2024. This process was not straightfoward due to WRI's unique way of combining days into distinct packages for two tiers of attendees. Ultimately we did find a way to configure the event to that users can quickly review options and select the combo of days that best fit their interests. Cvent's forms work well for us as they are dynamic based on user selections, ensuring a seamless and secure registration experience.
 
-#### Cvent Training
+#### Cvent Software Training
 
 ![Cvent Training](/images/cvent-academy.png)
 
@@ -160,7 +158,7 @@ Upon signing our contract with Cvent, I became involved in extensive onboarding 
 
 The configuration of the WRI 2024 event in Cvent was meticulously handled, from defining registration types and adding speaker profiles to incorporating sessions and admission items. As mentioned above, I had to undertake this with minimal training, so we had a bit of trial and error as the Cvent system is based on sessions versus days, but we landed on a solution that works well.
 
-#### Integrating Cvent Registration
+#### Configuring Cvent Registration Paths
 
 ![Integrating Cvent](/images/cvent-registration-form.png)
 
@@ -168,7 +166,7 @@ The final step involved bringing Cvent's registration form into the WRI 2024 web
 
 ![Storyblok](/images/storyblok.webp)
 
-### Storyblok Integration
+### Storyblok Content Management Software
 
 ![Storyblok Editing](/images/storyblok-example-editing.png)
 ![Kevin Oldknow Page](/images/kevin-oldknow.png)
