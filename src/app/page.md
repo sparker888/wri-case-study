@@ -44,15 +44,17 @@ The Wheel Rail Interaction conference was created and built on the idea that the
 
 Wheel Rail Seminars has excelled in creating events and environments in which there is a positive and open dialogue between personnel involved in rolling stock, track, operations, and management. Updates and ideas are shared between railways, suppliers, consultants, researchers, and regulators. Connections are made and conversations opened between some of the most junior and some of the most experienced members of our industry.
 
-# Envisioning a new WRI website
+![WRI Presenter!](/images/corina.png)
+
+## Envisioning a new WRI website
 
 As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I like to use the term Light. Speed. to represent a fast website built with streamlined tech to for flexibility. Most importantly, the system has to be secure, reliable, compliant and low maintenance.
 
-![WRI Presenter!](/images/corina.png)
+![WRI Focus Topic!](/images/focus-topic.png)
 
 First and foremost for the Wheel Rail Interaction Conference's new website, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
-## Our Goals
+# Our Goals
 
 First and foremost, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
@@ -70,11 +72,11 @@ As a team, we established several objectives early that would guide the entire p
 
 The new design of the WRI website needed to not only improve usability in terms of being fast and easy to navigate, but support a longer-term objective of improving the reach of the WRI Conference message to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal (working on this now - need to explain how we expanded reach).
 
+![Flexibility.](/images/flexibility.png)
+
 ### Streamlined Information and Registration Process
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
-
-![Flexibility.](/images/flexibility.png)
 
 ### Ability to Clone the Code Base for Annual Conferences
 
@@ -87,9 +89,9 @@ Building the WRI website codebase with the popular React library using Git versi
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
 
-## Meeting Management Needs
+## Meeting Management Requirements
 
-As a business owner myself, I'm always concerned about the bottom line. I'll go into more detail deeper into the case study, but some of the features of the new technology I work with helps to check off a lot of boxes when asked  about by my clients. I help make sure they happen:
+The economics of a website redesign is critical to get right. While I'll go into more detail deeper into the case study, up front working with WRS senior leadership required conversations and solutions around key aspects of the solution from a management perspective. Here are some of the topics that were important drivers of the project:
 
 #
 
