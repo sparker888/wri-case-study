@@ -32,7 +32,7 @@ By the end of the event, and the conclusion of this case study, you will see how
 
 ![The Team!](/images/wrs-seattle.png)
 
-I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). The leaders, marketers, and designers helped enhance my skills as a modern web developer to create the WRI 2024 online experience. The new website's success is largely due to a team effort. While I served as the project producer, it was the combined efforts of WRS leadership, marketers, and particularly Web Designer Randy Karey, who led the design direction of the website, that made it all possible.
+I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). While I served as the project producer, it was the combined efforts of the WRS team and Web designer Randy Karey, who led the new design direction of the website, that made it all possible. Working with true professionals made all the difference because I knew the bigger picture was covered when I turned my attention to implementing the design as the developer to create the final WRI 2024 online experience.
 
 ## What is the WRI Conference?
 
