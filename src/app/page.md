@@ -76,9 +76,9 @@ One of the most time consuming tasks in updating the WRI website for each annual
 
 ![Reliability.](/images/reliability.png)
 
-### Management Perspective
+## A Note on Management Perspective
 
-As the developer, I also set my sights on achieving a number of additional objectives more specifically related to the code and user experience:
+As a business owner myself, I'm always concerned about the bottom line. I'll go into more detail deeper into the case study, but some of the features of the new technology I work with helps to check off a lot of boxes when asked  about by my clients. I help make sure they happen:
 
 #
 
@@ -99,18 +99,7 @@ As the developer, I also set my sights on achieving a number of additional objec
 8. **Reduced Privacy Exposure**
 
 
-### From a UX and community perspective:
-
-In determining the scope of the project, we asked ourselves how we can improve showcasing the annual conference with a modern design, but limit the amount of work needed. We decided to concentrate most efforts into the following areas:
-
-- Home Page
-- Event Tracks
-- Registration System
-- Hotel Reservations
-- Sponsors and Sponsorship
-- InfoZone and ExpoZone products
-
-### Project Phases
+## Project Phases
 
 The WRS team worked through five project phases to deliver the project. These phases are:
 
@@ -120,21 +109,23 @@ The WRS team worked through five project phases to deliver the project. These ph
 - PHASE 4 - SITE REVISIONS
 - PHASE 5 - Site Launch & Project Wrap Up
 
-We have methodically completed each phase to launch the site at [wri.wheel-rail-seminars.com](https://wri.wheel-rail-seminars.com).
+More details on each phase are available deeper in tht case study, and I'll go into them a bit deeper on my socials during Summer 2024.
 
-### Project Highlights
+## Project Highlights
 
-#### Wireframes
-
-The team first created wireframes to help us proportion the content for the design phase.
-
-![Wireframes](/images/wireframe-home.png)
-
-#### User Journey
+#### Mapping the User Journey
 
 The team reviewed both analytics and user flow through the site to determine how we could improve its organization, particularly for the registration process. Using our notes, wireframes and user flow diagrams, we designed the look and feel of the main pages. We kept recognizable brand elements, yet created a design system that would enable future iteration.
 
 ![Journey](/images/wireframe-wri.jpg)
+
+#### Concepts and Wireframes
+
+For the sake of brevity, I'm just going to jump through some of the key highlights of the redesign project just share some .I'm skipping past discovery and whiteboarding some branding concepts and jumping to an image of a few wireframes that help us to organize and proportion the content for the design phase.
+
+![Wireframes](/images/wireframe-home.png)
+
+
 
 #### Project Build
 
@@ -142,7 +133,7 @@ Once the website design 'on paper' was approved, I built the site using the Reac
 
 ![WRI Chicago Header](/images/wri-chicago-header.jpg)
 
-## Key Integrations
+### Key Integrations
 
 Our project has successfully integrated essential services to enhance the WRI 2024 website's functionality and user experience. Namely, we integrated Cvent's registration system and Storyblok for speaker and topic management, a popular Content Management System (CMS) and Plausible Analytics. Here are a few highlights:
 
@@ -158,7 +149,7 @@ Using Cvent's Event Registration system, we were able to configure the event to 
 
 ![Cvent Training](/images/cvent-academy.png)
 
-Upon signing our contract with Cvent, I became involved in extensive onboarding and training sessions. This was led by the efforts of Abhishek Kumar who provided a four-week timeline of courses that gave me the necessary skills for basic Event Management configuration. I didn't finish that training as I had to jump into configuring the WRI 2024 event due to a pressing deadline, but I managed to leverage Cvent's support to help me to get it done.
+Upon signing our contract with Cvent, I became involved in extensive onboarding and training sessions. This was led by the efforts of Abhishek Kumar who provided a four-week timeline of courses that gave me the necessary skills for basic Event Management configuration. I'm excited to work with the organization and look forward to further training'.
 
 #### WRI 2024 Event Setup & Configuration
 
@@ -187,15 +178,15 @@ By separating the management of speaker information from the website code, CMSs 
 
 ---
 
-## The Result: A beautiful, functional, high-performance website that scored BIG on the Google's Lighthouse test!
+## Google's Lighthouse scores
 
-WRI 2024 was soft launched in December 2023 with our home page, a few links, and the Cvent registration form pages. Since that time, we have added seminar info, speaker cards, bios & abstract pages and sponsor pages. With the site mostly completed, I then tested the performance using Google Lighthouse test. There were a few issues that needed addressing, and I optimized the code to give us the following scores (at the time of this writing in February 2024):
+WRI 2024 has excellent lighthouse scores including perfect 'Best Practices' and 'SEO' scores according to their methodology and results. We made some tradeoffs with the Performance and Accessibility scores as they are heavily affected by media and Javascript as well as stringent requirements for contrast that can affect brand colors. We're satisfied with these scores and I continue to monitor them as we add and remove both content and features.
 
 ![High Performance.](/images/lighthouse-score-performance.png)
 
 ## The technology stars behind the scenes
 
-As you can see, the Google Lighthouse report scores WRI 2024 highly across the board for important categories that define a good website. This was accomplished with lots of work, but we have to tip our hat to incredible advances in recent years in web technology. Gravital, my company, is using the a variety of powerful and flexible solutions together named Jamstack. JAM, coined by the CEO of Netlify,  Matt Biilmann, a few years ago comes from client-side JavaScript, reusable APIs, and prebuilt Markup. The words don't matter as much as what it delivers:
+My company is uses a variety of powerful and flexible solutions together named Jamstack. JAM, coined by the CEO of Netlify,  Matt Biilmann, a few years ago comes from client-side JavaScript, reusable APIs, and prebuilt Markup. I'll go into more detail about it later, but what's most important for an executive summary is what it delivers:
 
 ![Jamstack](/images/powered-by-jamstack.png)
 
