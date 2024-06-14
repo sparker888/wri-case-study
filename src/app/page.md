@@ -226,11 +226,15 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ---
 
+![Summary](/images/splash-1.webp)
+
 ## Case Study Summary
 
-The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a code base to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores. Most importantly, let's compare the ultimate result: WRI 2023 attendance to WRI 2024 attendance as I believe this is a fair comparison since both events were held around the same time of year and both in large, upper Midwest cities — Minneapolis and Chicago:
+The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a code base to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores. 
 
-### Before and After Attendance: WRI 2023 v. WRI 2024
+The bottom line? Well, let's look at the before and after results that are most important to the client: WRI 2023 attendance compared to WRI 2024 attendance. This is the number that drives the health of the event and growth of the community, and I believe this is a fair comparison since both events were held at the same time of year (May 2023 and June 2024), and both in large, upper Midwest cities — Minneapolis and Chicago:
+
+### Attendance Comparison: WRI 2023 v. WRI 2024
 
 {% table %}
 
@@ -264,7 +268,7 @@ The Wheel Rail Interaction Conference website redesign project was a huge succes
 
 {% /table %}
 
-The bottom line is that the new WRI website helped to increase attendance to the event by 32%! We're extremely pleased with this result and look forward to growing attendance even more with future additions and improvements to the site. 
+There you have it. The newly redesigned WRI website helped to increase attendance to the event by 32%! We're extremely pleased with this result and look forward to growing attendance even more with future additions and improvements to the site.
 
 Thanks for checking out my case study! Please use the links at the top and sides for more details.
 
