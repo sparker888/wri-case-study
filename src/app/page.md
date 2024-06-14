@@ -264,6 +264,8 @@ The Wheel Rail Interaction Conference website redeisgn project was a huge succes
 
 {% /table %}
 
+Thanks for checking out my case study. Please use the links at the top and sides for more details.
+
 ### A note from WRS President Gordon Bachinsky
 
 > The work Steve and the WRS team accomplished in designing and building our new WRI 2024 website was instrumental in making this year's conference a success. We broke multiple attendance records, setting the stage for success as we split the conference into two WRI conferences starting in 2025. I look forward to ongoing improvements to the website as we continue to grow the Wheel/Rail Interaction engineering community.
