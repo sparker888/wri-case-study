@@ -1,5 +1,5 @@
 ---
-title: WRI Website Case Study Summary
+title: WRI Website Case Study
 ---
 
 Scroll for the summary. Here are a few Quick Links: {% .lead %}
