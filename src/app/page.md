@@ -92,7 +92,7 @@ Building the WRI website codebase with the popular React library using Git versi
 
 ## Meeting Business Requirements
 
-The economics of a website redesign are critical to get right. While I'll go into more detail later in the case study, working upfront with WRS senior leadership to address business requirements was essential before we began to envision the new design's look and feel. Getting this right required conversations around budget, ROI, internal processes, and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
+The economics of a website redesign are critical to get right. While it's fun for us designers to jump in creatively, working upfront with WRS senior leadership to address business requirements was essential before we began to envision the new design's look and feel. Getting this right required conversations around goals, budget, requirements, expectations, internal processes, and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
 
 1. **User Satisfaction**
 2. **Rapid Page Loading**
@@ -104,13 +104,15 @@ The economics of a website redesign are critical to get right. While I'll go int
 8. **Legal Coverage**
 9. **Minimal Maintenance**
 
+This led to the project scope and a project agreement with specific deliverables that I will go into more detail on later.
+
 ---
 
 ## My Process
 
 #### Mapping the User Journey
 
-We covered the goals above. Once defined, I engage the team during initial discovery sessions with data from an Google Analytics. The team reviewed the data to determine page popularity and user flow through the site. This helped us to determine how we could improve content organization, particularly for the registration process.
+We covered the goals and business requirements above. Once defined and the project deliverables are signed off, I engaged the creative team in a discovery session with data from an Google Analytics. The team reviewed the data to determine page popularity and user flow through the site. This helped us to prioritize where we should focus improvements on the user journey through the website, the content flow and organization, and details on how to improve the registration process in particular.
 
 ![Journey](/images/wireframe-wri.jpg)
 
