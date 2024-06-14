@@ -68,7 +68,7 @@ _A. Better Promote and Sell the WRI Conference_
 
 _B. Improve Information Organization & Event Registration_
 
-_C. Design a system for Easy Replication year after year to have an Archive_
+_C. Support Replication & Archival of Past Events using a Clonable Codebase_
 
 ### Improved Design for Usability and Branding
 
