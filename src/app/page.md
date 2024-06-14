@@ -226,7 +226,7 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ---
 
-## Project Summary
+## Case Study Summary
 
 The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a code base to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores. Most importantly, let's compare the ultimate result: WRI 2023 attendance to WRI 2024 attendance as I believe this is a fair comparison since both events were held around the same time of year and both in large, upper Midwest cities — Minneapolis and Chicago:
 
