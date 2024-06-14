@@ -238,7 +238,7 @@ The bottom line? Well, let's look at the before and after results that are most 
 
 {% table %}
 
-- Attendee {% width="50%" %}
+- Attendees {% width="50%" %}
 - 2023 {% width="25%" %}
 - 2024 {% width="25%" %}
 
