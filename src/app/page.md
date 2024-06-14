@@ -92,29 +92,21 @@ Building the WRI website codebase with the popular React library using Git versi
 
 ## Meeting Business Requirements
 
-The economics of a website redesign is critical to get right. While I'll go into more detail deeper into the case study, working up front with WRS senior leadership to address business requirements done well before we began to envision the look and feel of the new design. Getting this right required conversations around budget, ROI, internal processes and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
+The economics of a website redesign are critical to get right. While I'll go into more detail later in the case study, working upfront with WRS senior leadership to address business requirements was essential before we began to envision the new design's look and feel. Getting this right required conversations around budget, ROI, internal processes, and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
 
 1. **User Satisfaction**
-
 2. **Rapid Page Loading**
-
 3. **Improved SEO and Search Rankings**
-
 4. **Composable Architecture**
-
 5. **Cost Effective**
-
 6. **Editor Access**
-
 7. **Enhanced Security**
-
 8. **Legal Coverage**
-
 9. **Minimal Maintenance**
 
 ---
 
-# My Process
+## My Process
 
 #### Mapping the User Journey
 
@@ -134,13 +126,13 @@ The WRI 2024 website build was accomplished in several phases where, in general,
 
 ![WRI Chicago Header](/images/wri-chicago-header.jpg)
 
-### Key Integrations
+## Key Integrations
 
 Several key services were integrated into the website to enhance the WRI 2024 site's functionality and user experience. Namely, we integrated Cvent for their powerful registration system, Storyblok, a popular Content Management System (CMS), for speaker and topic management and Plausible Analytics for cookie-free site performance data. Here are a few highlights:
 
 ![Cvent Logo](/images/cvent-logo.png)
 
-## Cvent Event Management Software
+### Cvent Event Management Software
 
 ![Cvent Registration Screen](/images/cvent-register.png)
 
@@ -234,9 +226,9 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ## Project Summary
 
-The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project exceeded expectations and delivered measurable result!
+The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Check out how what that meant for event attendance, and by extension, event revenue:
 
-## WRI 2024 Seminar Attendance Totals
+### Before and After Attendance: WRI 2023 v. WRI 2024
 
 {% table %}
 
