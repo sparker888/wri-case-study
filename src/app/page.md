@@ -22,17 +22,19 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 ![We Broke Records!](/images/gravital-slide-wri.png)
 
-## 🎉 Woot! We broke records!!
+## 🎉 We broke records!
 
-Welcome to the Wheel Rail Interaction (WRI) 2024 case study. Here we'll review how I worked with the Wheel Rail Seminars team to redesign the company's event website, which began in early 2023 and culminated in the WRI 2024 Conference held in Chicago in May 2024. I'll share our vision to enhance the company's brand, better showcase the event speakers, improve technical performance, and help users more easily navigate and register for the event.
+Welcome to the Wheel Rail Interaction (WRI) 2024 website redesign case study. This site showcases how I worked with the Wheel Rail Seminars team to redesign the company's event website, which began in early 2023 and culminated in the WRI 2024 Conference held in Chicago in May 2024. I share our vision to enhance the company's brand, better showcase the event speakers, improve technical performance, and help users more easily navigate and register for the event.
 
-By the end of the event, and the conclusion of this case study, you will see how we achieved our key goals and delivered significant improvements to our core KPIs. Most notably, we increased traffic by 12%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. The WRI 2024 website also also broke records! For two of the three seminars, the Rail Transit Seminar and the Principles Course, we achieved the highest attendance on record, going back 29 years. Enjoy!
+Included are details on how we achieved our key goals and delivered significant improvements to our core KPIs. Most notably, we increased traffic by 12%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. The WRI 2024 website also broke several attendance records! For two of the three seminars, the Rail Transit Seminar and the Principles Course, we achieved the highest attendance on record, going back 29 years. Enjoy!
 
 ## First, quick introductions
 
 ![The Team!](/images/wrs-seattle.png)
 
 I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). While I served as the project producer, it was the combined efforts of the WRS team and Web designer Randy Karey, who led the new design direction of the website, that made it all possible. Working with true professionals made all the difference because I knew the bigger picture was covered when I turned my attention to implementing the design as the developer to create the final WRI 2024 online experience.
+
+---
 
 ## What is the WRI Conference?
 
@@ -45,6 +47,8 @@ The Wheel Rail Interaction conference was created and built on the idea that the
 Wheel Rail Seminars has excelled in creating events and environments in which there is a positive and open dialogue between personnel involved in rolling stock, track, operations, and management. Updates and ideas are shared between railways, suppliers, consultants, researchers, and regulators. Connections are made and conversations opened between some of the most junior and some of the most experienced members of our industry.
 
 ![WRI Presenter!](/images/corina.png)
+
+---
 
 ## Envisioning a new WRI website
 
@@ -62,11 +66,11 @@ First and foremost, the site needed an update in both technology and UX for a mo
 
 As a team, we established several objectives early that would guide the entire process:
 
-*A. Better Promote and Sell the WRI Conference*
+_A. Better Promote and Sell the WRI Conference_
 
-*B. Improve Information Organization & Event Registration*
+_B. Improve Information Organization & Event Registration_
 
-*C. Design a system for Easy Replication year after year to have an Archive*
+_C. Design a system for Easy Replication year after year to have an Archive_
 
 ### Improved Design for Usability and Branding
 
@@ -88,12 +92,9 @@ Building the WRI website codebase with the popular React library using Git versi
 
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
-
 ## Meeting Management Requirements
 
-The economics of a website redesign is critical to get right. While I'll go into more detail deeper into the case study, up front working with WRS senior leadership required conversations and solutions around key aspects of the solution from a management perspective. Here are some of the topics that were important drivers of the project:
-
-#
+The economics of a website redesign is critical to get right. While I'll go into more detail deeper into the case study, working up front with WRS senior leadership to address business requirements done well before we began to envision the look and feel of the new design. Getting this right required conversations around budget, ROI, internal processes and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
 
 1. **User Satisfaction**
 
@@ -113,48 +114,35 @@ The economics of a website redesign is critical to get right. While I'll go into
 
 9. **Minimal Maintenance**
 
+---
 
-## Project Phases
-
-The WRS team worked through five project phases to deliver the project. These phases are:
-
-- Phase 1 - SITE CONTENT
-- PHASE 2 - SITE CONCEPT & DESIGN
-- PHASE 3 - SITE DEVELOPMENT (Build)
-- PHASE 4 - SITE REVISIONS
-- PHASE 5 - Site Launch & Project Wrap Up
-
-More details on each phase are available deeper in tht case study, and I'll go into them a bit deeper on my socials during Summer 2024.
-
-## Project Highlights
+# My Process
 
 #### Mapping the User Journey
 
-The team reviewed both analytics and user flow through the site to determine how we could improve its organization, particularly for the registration process. Using our notes, wireframes and user flow diagrams, we designed the look and feel of the main pages. We kept recognizable brand elements, yet created a design system that would enable future iteration.
+We covered the goals above. Once defined, I engage the team during initial discovery sessions with data from an Google Analytics. The team reviewed the data to determine page popularity and user flow through the site. This helped us to determine how we could improve content organization, particularly for the registration process.
 
 ![Journey](/images/wireframe-wri.jpg)
 
-#### Concepts and Wireframes
+#### Wireframes and Concepts
 
-For the sake of brevity, I'm just going to jump through some of the key highlights of the redesign project just share some .I'm skipping past discovery and whiteboarding some branding concepts and jumping to an image of a few wireframes that help us to organize and proportion the content for the design phase.
+Next, we collaborated on Notion with mood boards to share things we liked about other event sites and offered up ideas on how we feel the site should look and feel. This was a balance in preserving the best of the historical branding versus improvements we wanted to see that makes websites look modern and communicate information clearly and quickly. Most importantly, we used the wireframes to organize content and set up the page flow in important areas such as registration. The wireframes led to the concepts which were developed in Adobe XD.
 
 ![Wireframes](/images/wireframe-home.png)
 
-
-
 #### Project Build
 
-Once the website design 'on paper' was approved, I built the site using the React which is a web development framework that enables me to create code that conforms to Jamstack principles. This was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
+The WRI 2024 website build was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
 
 ![WRI Chicago Header](/images/wri-chicago-header.jpg)
 
 ### Key Integrations
 
-Our project has successfully integrated essential services to enhance the WRI 2024 website's functionality and user experience. Namely, we integrated Cvent's registration system and Storyblok for speaker and topic management, a popular Content Management System (CMS) and Plausible Analytics. Here are a few highlights:
+Several key services were integrated into the website to enhance the WRI 2024 site's functionality and user experience. Namely, we integrated Cvent for their powerful registration system, Storyblok, a popular Content Management System (CMS), for speaker and topic management and Plausible Analytics for cookie-free site performance data. Here are a few highlights:
 
 ![Cvent Logo](/images/cvent-logo.png)
 
-### Cvent Integration
+## Cvent
 
 ![Cvent Registration Screen](/images/cvent-register.png)
 
@@ -164,7 +152,7 @@ Using Cvent's Event Registration system, we were able to configure the event to 
 
 ![Cvent Training](/images/cvent-academy.png)
 
-Upon signing our contract with Cvent, I became involved in extensive onboarding and training sessions. This was led by the efforts of Abhishek Kumar who provided a four-week timeline of courses that gave me the necessary skills for basic Event Management configuration. I'm excited to work with the organization and look forward to further training'.
+Upon signing our contract with Cvent, I became involved in extensive onboarding and training sessions. This was led by the efforts of Abhishek Kumar who provided a four-week timeline of courses that gave me the necessary skills for basic Event Management configuration. I'm excited to work with the organization and look forward to further training.
 
 #### WRI 2024 Event Setup & Configuration
 
@@ -193,15 +181,15 @@ By separating the management of speaker information from the website code, CMSs 
 
 ---
 
-## Google's Lighthouse scores
+# Technology and Performance Scores
 
 WRI 2024 has excellent lighthouse scores including perfect 'Best Practices' and 'SEO' scores according to their methodology and results. We made some tradeoffs with the Performance and Accessibility scores as they are heavily affected by media and Javascript as well as stringent requirements for contrast that can affect brand colors. We're satisfied with these scores and I continue to monitor them as we add and remove both content and features.
 
 ![High Performance.](/images/lighthouse-score-performance.png)
 
-## The technology stars behind the scenes
+## Jamstack technology
 
-My company is uses a variety of powerful and flexible solutions together named Jamstack. JAM, coined by the CEO of Netlify,  Matt Biilmann, a few years ago comes from client-side JavaScript, reusable APIs, and prebuilt Markup. I'll go into more detail about it later, but what's most important for an executive summary is what it delivers:
+I use a variety of powerful and flexible solutions together named Jamstack. JAM, coined by the CEO of Netlify, Matt Biilmann, a few years ago comes from client-side JavaScript, reusable APIs, and prebuilt Markup. I'll go into more detail about it later, but what's most important for an executive summary is what it delivers:
 
 ![Jamstack](/images/powered-by-jamstack.png)
 
@@ -214,7 +202,7 @@ My company is uses a variety of powerful and flexible solutions together named J
 
 Designing and constructing a fully performant website leveraging this architecture necessitates expertise across multiple technologies, ensuring both administrative ease and an enriching content developer experience. Moreover, should your product experience a surge in popularity, the underlying CDN technology ensures seamless scalability to accommodate the increased traffic.
 
-### Next.js: The React Framework for the Web
+### React: a JavaScript framework
 
 ![React](/images/react.png)
 
@@ -222,13 +210,13 @@ Next.js significantly enhances web development by facilitating server-side rende
 
 ![Tailwind](/images/tailwind.webp)
 
-### Built with TailwindCSS
+### Design System using TailwindCSS
 
 TailwindCSS, renowned for its utility-first approach, empowers developers to directly build designs within their HTML. This methodology expedites the styling process, obviating the need for custom CSS, and facilitates the rapid development of responsive designs across various devices. The highly customizable nature of TailwindCSS's design system ensures consistent design throughout the project, while its integration with Next.js allows developers to seamlessly blend these styling benefits within a robust web development framework. The synergy between TailwindCSS and Next.js enhances both the developer experience and the performance of the application.
 
 ![GitHub](/images/github.webp)
 
-### GitHub Repo
+### Managing the Code Base with the GitHub Repository
 
 GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store our code. GitHub is home to over 200,000,000 code bases, both public and private. They uses a standardized system of code control called Git we utilize to manage the website's codebase.
 
@@ -240,17 +228,17 @@ Version control is indispensable in contemporary development workflows, particul
 
 Hosting Next.js applications on Netlify presents numerous advantages, including widespread CDN distribution for accelerated content delivery and effortless scalability. Netlify's continuous deployment from Git automatically publishes updates across all branches, while its support for serverless functions enables dynamic functionalities without the complexity of server management. This amalgamation of Next.js and Netlify offers a potent framework for constructing and deploying fast, secure, and scalable web applications, underscoring the technological synergy that characterizes the WRI 2024 project.
 
-### Summary of Jamstack Platform Benefits
+### Summary of Jamstack Technology Benefits
 
 By leveraging these technologies and practices, we crafted a high-performance, secure, visible, and composable website for this WRI 2024 event site. Constructed using Jamstack principles, it not only delivers exceptional user experiences and high Google Lighthouse scores but delivers where it counts - conversions and revenue. It's also designed for long-term performance. By cloning repos and reconfiguring content, new websites are created from the original template, year after year, serving as a dynamic conference archive, showcasing past event speakers, abstracts and presentations for posterity.
 
 ---
 
-## Project Summary 
+## Project Summary
 
 The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project exceeded expectations and delivered measurable result!
 
-## Event Attendance Totals
+## WRI 2024 Seminar Attendance Totals
 
 {% table %}
 
@@ -290,9 +278,9 @@ The WRI website project was a huge success. We met our key goals and objectives 
 >
 > — Gordon Bachinsky, Founder and President, Wheel Rail Seminars
 
-### Want more info?
+### Get in touch
 
-It's easiest to contact me directly using [this form](https://gravitaldigital.com/#contact). I'm considering a few interviews and I'm also willing to make a free assessment of your needs and talk with you about potential next steps.
+It's easiest to contact me directly through my company website [Gravital Digital](https://gravitaldigital.com/#contact). You can also read more about me on my website at [sparker888.com](https://sparker888.com), follow me on [Twitter/X](https://x.com/sparker888), and connect with me on [LinkedIn](https://linkedin.com/in/sparker888). I'd love to hear from you and I'm happy to answer any questions about this project.
 
 ### Thank you
 
