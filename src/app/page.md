@@ -56,7 +56,7 @@ As with any successful website redesign project, we carried out our work based o
 
 ![WRI Focus Topic!](/images/focus-topic.png)
 
-# Our Goals
+### Our Goals
 
 First and foremost, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
@@ -110,19 +110,19 @@ This led to the project scope and a project agreement with specific deliverables
 
 ## My Process
 
-#### Mapping the User Journey
+### Mapping the User Journey
 
 We covered the goals and business requirements above. Once defined and the project deliverables are signed off, I engaged the creative team in a discovery session with data from an Google Analytics. The team reviewed the data to determine page popularity and user flow through the site. This helped us to prioritize where we should focus improvements on the user journey through the website, the content flow and organization, and details on how to improve the registration process in particular.
 
 ![Journey](/images/wireframe-wri.jpg)
 
-#### Wireframes and Concepts
+### Wireframes and Concepts
 
 Next, we collaborated on Notion with mood boards to share things we liked about other event sites and offered up ideas on how we feel the site should look and feel. This was a balance in preserving the best of the historical branding versus improvements we wanted to see that makes websites look modern and communicate information clearly and quickly. Most importantly, we used the wireframes to organize content and set up the page flow in important areas such as registration. The wireframes led to the concepts which were developed in Adobe XD.
 
 ![Wireframes](/images/wireframe-home.png)
 
-#### Project Build
+### Project Build
 
 The WRI 2024 website build was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
 
