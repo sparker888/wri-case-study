@@ -52,7 +52,7 @@ Wheel Rail Seminars has excelled in creating events and environments in which th
 
 ## Envisioning a new WRI website
 
-As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I've branded the phrase Light. Speed. to represent a fast website built with streamlined tech to for Speed, Flexibility and Reliability.
+As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I've branded the phrase Light. Speed. to represent a fast website built with streamlined tech for what I feel are the three pillars to a successful website technical architecture: Speed, Flexibility and Reliability.
 
 ![WRI Focus Topic!](/images/focus-topic.png)
 
