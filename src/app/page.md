@@ -64,7 +64,7 @@ The new design of the WRI website needed to not only improve usability in terms 
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
 
-![Reliability.](/images/reliability.png)
+
 
 ### Ability to Clone the Code Base for Annual Conferences
 
@@ -74,31 +74,32 @@ Building the WRI website codebase with the popular React library using Git versi
 
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
-### Additional Objectives
+![Reliability.](/images/reliability.png)
+
+### Management Perspective
 
 As the developer, I also set my sights on achieving a number of additional objectives more specifically related to the code and user experience:
 
 #
 
-1. **Rapid Loading Speed**
+1. **User Satisfaction**
 
-2. **Cost Efficiency**
+2. **Rapid Loading Speed**
 
-3. **User Satisfaction**
+3. **Perfect SEO and Higher Rankings**
 
 4. **Composable Architecture**
 
-5. **SEO and Higher Rankings**
+5. **Cost Efficiency**
 
-6. **Key Content Editing**
+6. **Editor Access**
 
 7. **Enhanced Security**
 
 8. **Reduced Privacy Exposure**
 
-See the [WRI 2024 Goals](https://gravital-wri-case-study.netlify.app/docs/goals-project-scope) for more details on this subject .
 
-### We focused on several specific areas:
+### From a UX and community perspective:
 
 In determining the scope of the project, we asked ourselves how we can improve showcasing the annual conference with a modern design, but limit the amount of work needed. We decided to concentrate most efforts into the following areas:
 
@@ -239,7 +240,7 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ---
 
-## Project Summary (i.e. the bottom line)
+## Project Summary 
 
 The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Most importantly, the project exceeded expectations and delivered measurable result!
 
@@ -289,4 +290,4 @@ It's easiest to contact me directly using [this form](https://gravitaldigital.co
 
 ### Thank you
 
-I appreciate the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped with this project. Thank you!
+I appreciate the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!

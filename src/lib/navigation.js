@@ -8,23 +8,23 @@ export const navigation = [
   {
     title: 'Jamstack Delivers!',
     links: [
-      { title: "WRI Lighthouse Scores", href: '/docs/best-stack' },
+      { title: "Jamstack Delivers!", href: '/docs/best-stack' },
       {
-        title: "The Planet's Best Tech Stack",
+        title: "The Light. Speed. stack",
         href: '/docs/benefits-of-jamstack',
       },
       {
         title: 'Perfect for Marketers',
         href: '/docs/integrations',
       },
-      { title: 'Improves ROI', href: '/docs/improves-roi' },
+      { title: 'Incredible ROI', href: '/docs/improves-roi' },
     ],
   },
   {
     title: 'WRI Website Design & Build',
     links: [
-      { title: 'WRI Branding Elements', href: '/docs/wri-branding-elements' },
-      { title: 'The Power of React', href: '/docs/nextjs-react' },
+      { title: 'Design for Engineers', href: '/docs/wri-branding-elements' },
+      { title: 'The Power of Components', href: '/docs/nextjs-react' },
       {
         title: 'Component Building Blocks',
         href: '/docs/component-building-blocks',
