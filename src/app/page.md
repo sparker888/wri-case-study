@@ -24,23 +24,35 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 ## We broke multiple attendance records!
 
-Welcome to the Wheel Rail Interaction (WRI) 2024 case study. This project case study showcases the impressive transformation of the WRI website by a team of talented designers, marketers and developers as produced by myself as Gravital Digital. My approach to website production focuses on a number of important areas that have proven to provide successful results over the 30 years that I have been working the web.
+Welcome to the Wheel Rail Interaction (WRI) 2024 case study. This case study showcases the transformation of the engineering event website that began early in 2023 and culminated with the WRI 2024 Conference held in Chicago during May 2024. At that time, the vision was to enhance the brand, better showcase event speakers, improve the technical performance make it easier for users to navigate and register for the event.
 
-As the WRS team, we achieved our key goals for Wheel Rail Seminars', and ultimately increased traffic by 12%, boosted conversions by an impressive 23.5%, and the company saw a remarkable 32% rise in overall attendees to their conference in Chicago in May 2024. This success was highlighted by record-breaking attendance at both the Rail Transit seminar and the Principles Course seminar. You can see specific numbers below if you're interested.
+At the conclusion of the event, we not only achieved our key goals for the website, but we drove increases in our core KPIs including increasing traffic by 12%, boosting conversions by an impressive 23.5%, and drive a remarkable 32% rise in overall attendees to the event. And we broke records! The Rail Transit Seminar and the Principles Course had their highest registration on record!
 
 ## First, quick introductions
 
 ![The Team!](/images/wrs-seattle.png)
 
-I'm pleased to be a part of [the WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars) and together with a talented group of designers and marketers, combined with my skills as a modern web developer, we created a product that performed flawlessly, drives revenue, and will be an easy system to manage thanks to Jamstack and smart integrtations such as Storyblock, but first, let's review the goals of the website redesign project.'
+I'm so honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). The leaders, marketers and designers helped enhance my skills as a modern web developer to create WRI 2024 online. The new website's success is due largely to a team effort.
+
+## What is the WRI Conference?
+
+![WRI VIPs](/images/wri-team.png)
+
+The Wheel Rail Interaction conference was created and built on the idea that the rail industry can only make progress in solving its most difficult challenges, and becoming the best version of itself, if there is free and open communication across the boundaries of traditional organizational silos.
+
+![WRI Audience!](/images/wri-audience.png)
+
+Wheel Rail Seminars has excelled in creating events and environments in which there is a positive and open dialogue between personnel involved in rolling stock, track, operations, and management. Updates and ideas are shared between railways, suppliers, consultants, researchers, and regulators. Connections are made and conversations opened between some of the most junior and some of the most experienced members of our industry.
 
 # Envisioning a new WRI website
 
 As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I like to use the term Light. Speed. to represent a fast website built with streamlined tech to for flexibility. Most importantly, the system has to be secure, reliable, compliant and low maintenance.
 
+![We Broke Records!](/images/wri-audience.png)
+
 First and foremost for the Wheel Rail Interaction Conference's new website, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
-![Light. Speed.](/images/speed.png)
+![WRI Presenter!](/images/corina.png)
 
 # Working with Wheel Rail Seminars
 
@@ -54,7 +66,7 @@ As a team, we established several objectives early that would guide the entire p
 
 *C. Design a system for Easy Replication year after year to have an Archive*
 
-![Flexibility.](/images/flexibility.png)
+![WRI crowd photo](/images/wri-crowd.jpg)
 
 ### Improved Design for Usability and Branding
 
@@ -64,11 +76,13 @@ The new design of the WRI website needed to not only improve usability in terms 
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
 
-
+![Light. Speed.](/images/speed.png)
 
 ### Ability to Clone the Code Base for Annual Conferences
 
 Building the WRI website codebase with the popular React library using Git version control provides us with important benefits. During the build, using version control allowed us to set up a draft website for content review before going live. This same system will enable us to replicate the codebase year over year and go back to see old sites at any point in time. Most importantly, Git will serve as our means of cloning the codebase for each annual event, saving us valuable time while preserving an archive of past events.
+
+![Flexibility.](/images/flexibility.png)
 
 ### Providing Editors the Power to Edit Website Content Directly
 
@@ -269,7 +283,7 @@ The WRI website project was a huge success. We met our key goals and objectives 
 
 {% /table %}
 
-### A Happy Client!
+### A note from WRS President Gordon Bachinsky
 
 > The work Steve and the WRS team accomplished in designing and building our new WRI 2024 website was instrumental in making this year's conference a success. We broke multiple attendance records, setting the stage for success as we split the conference into two WRI conferences starting in 2025. I look forward to ongoing improvements to the website as we continue to grow the Wheel/Rail Interaction engineering community.
 >
