@@ -228,7 +228,7 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ## Project Summary
 
-The WRI website project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. Check out how what that meant for event attendance, and by extension, event revenue:
+The Wheel Rail Interaction Conference website redeisgn project was a huge success. We met our key goals and objectives and are well on our way to accomplishing our longer-term objectives. The best measure I can provide in terms of success is to look at the before and after results. I feel that event attendance probably shares the best story, and looking at WRI 2023 and contrasting that to WRI 2024 is a fair comparison as both events were around the same time of year and they were both held in large, upper Midwest cities Minneapolis and Chicago. Here are the results:
 
 ### Before and After Attendance: WRI 2023 v. WRI 2024
 
