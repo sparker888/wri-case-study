@@ -48,15 +48,15 @@ Wheel Rail Seminars has excelled in creating events and environments in which th
 
 As with any successful website redesign project, we carried out our work based on accomplishing my three general rules as a website producer. Keep the design centered around the user experience, keep the tech as simple as possible for performance and integrate features where it makes sense. I like to use the term Light. Speed. to represent a fast website built with streamlined tech to for flexibility. Most importantly, the system has to be secure, reliable, compliant and low maintenance.
 
-![We Broke Records!](/images/wri-audience.png)
+![WRI Presenter!](/images/corina.png)
 
 First and foremost for the Wheel Rail Interaction Conference's new website, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
 
-![WRI Presenter!](/images/corina.png)
-
-# Working with Wheel Rail Seminars
+## Our Goals
 
 First and foremost, the site needed an update in both technology and UX for a more user-centered design. In addition, information was difficult to get to and registration was convoluted, so we streamlined information organization, navigation and simplified a complicated, multi-pronged registration processes. Then we enhanced the message and branding of the event itself while keeping to its roots, to create a more engaging experience!
+
+![Light. Speed.](/images/speed.png)
 
 As a team, we established several objectives early that would guide the entire process:
 
@@ -66,8 +66,6 @@ As a team, we established several objectives early that would guide the entire p
 
 *C. Design a system for Easy Replication year after year to have an Archive*
 
-![WRI crowd photo](/images/wri-crowd.jpg)
-
 ### Improved Design for Usability and Branding
 
 The new design of the WRI website needed to not only improve usability in terms of being fast and easy to navigate, but support a longer-term objective of improving the reach of the WRI Conference message to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal (working on this now - need to explain how we expanded reach).
@@ -76,21 +74,20 @@ The new design of the WRI website needed to not only improve usability in terms 
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
 
-![Light. Speed.](/images/speed.png)
+![Flexibility.](/images/flexibility.png)
 
 ### Ability to Clone the Code Base for Annual Conferences
 
 Building the WRI website codebase with the popular React library using Git version control provides us with important benefits. During the build, using version control allowed us to set up a draft website for content review before going live. This same system will enable us to replicate the codebase year over year and go back to see old sites at any point in time. Most importantly, Git will serve as our means of cloning the codebase for each annual event, saving us valuable time while preserving an archive of past events.
 
-![Flexibility.](/images/flexibility.png)
+![Reliability.](/images/reliability.png)
 
 ### Providing Editors the Power to Edit Website Content Directly
 
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
-![Reliability.](/images/reliability.png)
 
-## A Note on Management Perspective
+## Meeting Management Needs
 
 As a business owner myself, I'm always concerned about the bottom line. I'll go into more detail deeper into the case study, but some of the features of the new technology I work with helps to check off a lot of boxes when asked  about by my clients. I help make sure they happen:
 
@@ -98,19 +95,21 @@ As a business owner myself, I'm always concerned about the bottom line. I'll go 
 
 1. **User Satisfaction**
 
-2. **Rapid Loading Speed**
+2. **Rapid Page Loading**
 
-3. **Perfect SEO and Higher Rankings**
+3. **Improved SEO and Search Rankings**
 
 4. **Composable Architecture**
 
-5. **Cost Efficiency**
+5. **Cost Effective**
 
 6. **Editor Access**
 
 7. **Enhanced Security**
 
-8. **Reduced Privacy Exposure**
+8. **Legal Coverage**
+
+9. **Minimal Maintenance**
 
 
 ## Project Phases
