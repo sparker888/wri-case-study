@@ -6,13 +6,13 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 {% quick-links %}
 
-{% quick-link title="Jamstack Delivers!" icon="lightbulb" href="/docs/best-stack" description="What is Jamstack? How did a Light & Fast website deliver these results for WRI 2024?" /%}
+{% quick-link title="Jamstack Delivers!" icon="lightbulb" href="/docs/best-stack" description="What is Jamstack? How does modern website technology help to deliver these results?" /%}
 
-{% quick-link title="WRI 2024 Design & Build" icon="presets" href="/docs/nextjs-react" description="Learn how we analyzed historic user behavior and developed a better online experience!" /%}
+{% quick-link title="WRI 2024 Design & Build" icon="presets" href="/docs/nextjs-react" description="Learn how we analyzed historic user behavior to help us develop a better online experience!" /%}
 
-{% quick-link title="Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Witness the power of key integrations for event marketing using Cvent, a powerful CMS named Storyblok and other third-party plugins." /%}
+{% quick-link title="Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Witness the power of key integrations for such as Cvent, powerful event software, and speaker content using a flexible CMS named Storyblok." /%}
 
-{% quick-link title="Project Summary" icon="installation" href="/docs/goals-project-scope" description="A wrap-up of the project from goals to design to the final build and launch. I also discuss ongoing improvements and how I can help with your project!" /%}
+{% quick-link title="Project Summary" icon="installation" href="/docs/goals-project-scope" description="I wrap up the project highlights here, from goals to design to the final build and launch! I also touch on possible future enhancements." /%}
 
 {% /quick-links %}
 
