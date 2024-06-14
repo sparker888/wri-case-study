@@ -8,11 +8,11 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 {% quick-link title="Jamstack Delivers!" icon="lightbulb" href="/docs/best-stack" description="What is Jamstack? How did a Light & Fast website deliver these results for WRI 2024?" /%}
 
-{% quick-link title="WRI 2024 Project Overview" icon="presets" href="/docs/nextjs-react" description="Learn how we analyzed historic user behavior and developed a better online experience!" /%}
+{% quick-link title="WRI 2024 Design & Build" icon="presets" href="/docs/nextjs-react" description="Learn how we analyzed historic user behavior and developed a better online experience!" /%}
 
 {% quick-link title="Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Witness the power of key integrations for event marketing using Cvent, a powerful CMS named Storyblok and other third-party plugins." /%}
 
-{% quick-link title="Project Summary" icon="installation" href="/docs/goals-project-scope" description="A wrap-up of the project from goals to design to the final build and launch." /%}
+{% quick-link title="Project Summary" icon="installation" href="/docs/goals-project-scope" description="A wrap-up of the project from goals to design to the final build and launch. I also discuss ongoing improvements and how I can help with your project!" /%}
 
 {% /quick-links %}
 
