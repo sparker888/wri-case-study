@@ -278,10 +278,10 @@ Thanks for checking out my case study! Please use the links at the top and sides
 >
 > — Gordon Bachinsky, Founder and President, Wheel Rail Seminars
 
-### Get in touch
-
-It's easiest to contact me directly through my company website [Gravital Digital](https://gravitaldigital.com/#contact). You can also read more about me on my website at [sparker888.com](https://sparker888.com), follow me on [Twitter/X](https://x.com/sparker888), and connect with me on [LinkedIn](https://linkedin.com/in/sparker888). I'd love to hear from you and I'm happy to answer any questions about this project.
-
 ### Thank you
 
 I appreciate the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!
+
+### Get in touch
+
+It's easiest to contact me directly through my company website [Gravital Digital](https://gravitaldigital.com/#contact). You can also read more about me on my website at [sparker888.com](https://sparker888.com), follow me on [Twitter/X](https://x.com/sparker888), and connect with me on [LinkedIn](https://linkedin.com/in/sparker888). I'd love to hear from you and I'm happy to answer any questions about this project.
