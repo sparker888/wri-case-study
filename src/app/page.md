@@ -320,7 +320,7 @@ Thanks for checking out my case study! Please use the links at the top and sides
 
 ### Thank you
 
-I appreciate the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!
+I appreciate Gordon and the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!
 
 ### Get in touch
 
