@@ -32,13 +32,15 @@ Included are details on how we achieved our key goals and delivered significant 
 
 ![The Team!](/images/wrs-seattle.png)
 
-I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). While I served as the project producer, it was the combined efforts of the WRS team and Web designer Randy Karey, who led the new design direction of the website, that made it all possible. Working with true professionals made all the difference because I knew the bigger picture was covered when I turned my attention to implementing the design as the developer to create the final WRI 2024 online experience.
+I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). While I served as the project producer, it was the combined efforts of President Gordon Bachinsky, Director of Operations Brandon Koenig, Director of Marketing & Events Erica Koenig, and Web Designer Randy Karey that made it all possible. I also work peripherally with Bob Tuzic, Executive Program Director, who has played a huge role in the program's success. He and his son, Jeff Tuzic, communicate amazing engineering stories within the community on their partner website, [Interface Journal](https://interface-journal.com), which is highlighted on all WRI websites.
 
 ---
 
 ## What is the WRI Conference?
 
 ![WRI VIPs](/images/wri-team.png)
+
+Gordon Bachinsky, Kevin Oldknow, Bob Tuzik, and Richard Stock
 
 The Wheel Rail Interaction conference was created and built on the idea that the rail industry can only make progress in solving its most difficult challenges, and becoming the best version of itself, if there is free and open communication across the boundaries of traditional organizational silos.
 
@@ -124,7 +126,7 @@ Next, we collaborated on Notion with mood boards to share things we liked about 
 
 ### Project Build
 
-The WRI 2024 website build was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
+The WRI 2024 website build was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This process was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
 
 ![WRI 2024 WRI Chicago Skyline Hero Banner](/images/wri-chicago-header.jpg)
 
