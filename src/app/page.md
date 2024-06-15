@@ -126,7 +126,45 @@ Next, we collaborated on Notion with mood boards to share things we liked about 
 
 The WRI 2024 website build was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
 
-![WRI Chicago Header](/images/wri-chicago-header.jpg)
+![WRI 2024 WRI Chicago Skyline Hero Banner](/images/wri-chicago-header.jpg)
+
+WRI 2024 Banner, Hero and Seminar Icons
+
+![WRI 2024 Intro Section](/images/wri-intro.png)
+
+WRI 2024 Intro and Special Sections
+
+![WRI 2024 Schedule](/images/wri-schedule.png)
+
+WRI 2024 Sticky Navigation & Schedule
+
+![WRI 2024 Principles Course](/images/principles-course-2.png)
+
+WRI 2024 Speaker Grid
+
+![WRI 2024 Heavy Haul Focus Topic](/images/heavy-haul-focus-topic.png)
+
+WRI 2024 Heavy Haul Focus Topic Component
+
+![WRI 2024 Rail Transit Seminar Bios & Abstracts](/images/rail-transit-bios.png)
+
+WRI 2024 Rail Transit Bios & Abstracts Grid
+
+![WRI 2024 Sponsor Marquee](/images/sponsor-marquee.png)
+
+WRI 2024 Sponsor Marquee (animated)
+
+![WRI 2024 Announcements](/images/wri-announcements.png)
+
+Interface Journal RSS Feed and WRI Announcements
+
+![WRI 2024 Info Zone](/images/wri-info-zone.png)
+
+WRI 2024 Info Zone
+
+![WRI 2024 FAQ and Footer](/images/faq.png)
+
+WRI 2024 FAQ and Footer
 
 ## Key Integrations
 
