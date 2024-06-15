@@ -49,12 +49,16 @@ const header = localFont({
 export const metadata = {
   title: {
     template: '%s - Docs',
-    default: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
+    default:
+      'WThe WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign to see how. 🔍',
   },
-  description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
+  description:
+    'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
   openGraph: {
-    title: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
-    description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
+    title:
+      'WThe WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign to see how. 🔍',
+    description:
+      'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
     url: 'https://gravital-wri-case-study.netlify.app/',
     type: 'website',
     images: [
@@ -62,15 +66,18 @@ export const metadata = {
         url: 'https://gravital-wri-case-study.netlify.app/images/wri-case-study-website.jpg',
         width: 1200,
         height: 628,
-        alt: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
+        alt: 'WThe WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign to see how. 🔍',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
-    description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
-    image: 'https://gravital-wri-case-study.netlify.app/images/wri-case-study-website.jpg',
+    title:
+      'The WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign to see how. 🔍',
+    description:
+      'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
+    image:
+      'https://gravital-wri-case-study.netlify.app/images/wri-case-study-website.jpg',
   },
 }
 
@@ -93,16 +100,31 @@ export default function RootLayout({ children }) {
         <title>Gravital Digital</title>
         <meta name="description" content={metadata.description} />
         <meta property="og:title" content={metadata.openGraph.title} />
-        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta
+          property="og:description"
+          content={metadata.openGraph.description}
+        />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:image" content={metadata.openGraph.images[0].url} />
-        <meta property="og:image:width" content={metadata.openGraph.images[0].width} />
-        <meta property="og:image:height" content={metadata.openGraph.images[0].height} />
-        <meta property="og:image:alt" content={metadata.openGraph.images[0].alt} />
+        <meta
+          property="og:image:width"
+          content={metadata.openGraph.images[0].width}
+        />
+        <meta
+          property="og:image:height"
+          content={metadata.openGraph.images[0].height}
+        />
+        <meta
+          property="og:image:alt"
+          content={metadata.openGraph.images[0].alt}
+        />
         <meta name="twitter:card" content={metadata.twitter.card} />
         <meta name="twitter:title" content={metadata.twitter.title} />
-        <meta name="twitter:description" content={metadata.twitter.description} />
+        <meta
+          name="twitter:description"
+          content={metadata.twitter.description}
+        />
         <meta name="twitter:image" content={metadata.twitter.image} />
       </head>
       <body className="flex min-h-full bg-white dark:bg-black">
