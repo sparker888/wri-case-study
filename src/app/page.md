@@ -232,7 +232,7 @@ I use a variety of powerful and flexible solutions together named Jamstack. JAM,
 - Seamless integration capabilities
 - Cost-effective Edge hosting and scalability
 
-Designing and constructing a fully performant website leveraging this architecture necessitates expertise across multiple technologies, ensuring both administrative ease and an enriching content developer experience. Moreover, should your product experience a surge in popularity, the underlying CDN technology ensures seamless scalability to accommodate the increased traffic.
+Designing and constructing a fully performant website leveraging this architecture necessitates expertise across multiple technologies, ensuring both administrative ease and an enriching content developer experience. Moreover, should the WRI 2024 website experience a surge in popularity, the underlying CDN technology ensures seamless scalability to accommodate the increased traffic.
 
 ### React: a JavaScript framework
 
@@ -244,13 +244,13 @@ Next.js significantly enhances web development by facilitating server-side rende
 
 ### Design System using TailwindCSS
 
-TailwindCSS, renowned for its utility-first approach, empowers developers to directly build designs within their HTML. This methodology expedites the styling process, obviating the need for custom CSS, and facilitates the rapid development of responsive designs across various devices. The highly customizable nature of TailwindCSS's design system ensures consistent design throughout the project, while its integration with Next.js allows developers to seamlessly blend these styling benefits within a robust web development framework. The synergy between TailwindCSS and Next.js enhances both the developer experience and the performance of the application.
+TailwindCSS, renowned for its utility-first approach, empowers developers to directly build designs within their HTML. This methodology expedites the styling process, obviating the need for custom CSS, and facilitates the rapid development of responsive designs across various devices. I love working with TailwindCSS for its simplicity and powerful design system ensures consistent branding throughout the project. Its integration with Next.js allows developers to seamlessly blend these styling benefits within a robust web development framework. The synergy between TailwindCSS and Next.js enhances both the developer experience and the performance of the application.
 
 ![GitHub](/images/github.webp)
 
 ### Managing the Codebase with the GitHub Repository
 
-GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store our code. GitHub is home to over 200,000,000 codebases, both public and private. They uses a standardized system of code control called Git we utilize to manage the website's codebase.
+GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store the code for this all all client projects. GitHub is home to over 200,000,000 codebases, both public and private. They uses a standardized system of code version control called Git which we utilize to manage the website's codebase.
 
 Version control is indispensable in contemporary development workflows, particularly with GitHub, which streamlines collaboration by enabling changes to be tracked and reviewed. Integrating Next.js projects with GitHub not only optimizes the website work, but also ensures more streamlined updates and superior code quality, enhancing the the longevity of the codebase.
 
@@ -258,11 +258,11 @@ Version control is indispensable in contemporary development workflows, particul
 
 ### Edge Hosting on Netlify
 
-Hosting Next.js applications on Netlify presents numerous advantages, including widespread CDN distribution for accelerated content delivery and effortless scalability. Netlify's continuous deployment from Git automatically publishes updates across all branches, while its support for serverless functions enables dynamic functionalities without the complexity of server management. This amalgamation of Next.js and Netlify offers a potent framework for constructing and deploying fast, secure, and scalable web applications, underscoring the technological synergy that characterizes the WRI 2024 project.
+Hosting with Netlify presents numerous advantages, including widespread CDN distribution for accelerated content delivery and effortless scalability. Netlify's continuous deployment from Git automatically publishes updates across all branches, while its support for serverless functions enables dynamic functionalities without the complexity of server management. This amalgamation of React and Netlify provides a potent combination for constructing and deploying fast, secure, and scalable web applications, underscoring the technological synergy that characterizes the WRI 2024 project.
 
 ### Summary of Jamstack Technology Benefits
 
-By leveraging these technologies and practices, we crafted a high-performance, secure, visible, and composable website for this WRI 2024 event site. Constructed using Jamstack principles, it not only delivers exceptional user experiences and high Google Lighthouse scores but delivers where it counts - conversions and revenue. It's also designed for long-term performance. By cloning repos and reconfiguring content, new websites are created from the original template, year after year, serving as a dynamic conference archive, showcasing past event speakers, abstracts and presentations for posterity.
+By leveraging these technologies and practices, I crafted a high-performance, secure, visible, and composable website for the WRI 2024 Conference. Constructed using Jamstack principles and modern development tools, it not only delivers exceptional user experiences as evidenced by high Google Lighthouse scores but delivers where it counts - increases in traffic, conversions and event attendance. It's also designed for long-term performance. By cloning repos from a standard code base, then reconfiguring content by event, new WRI websites are created from this template, year after year, serving as a dynamic conference archive, showcasing past event for posterity.
 
 ---
 
@@ -270,7 +270,7 @@ By leveraging these technologies and practices, we crafted a high-performance, s
 
 ## Case Study Summary
 
-The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a codebase to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores. 
+The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a codebase to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores.
 
 The bottom line? Well, let's look at the before and after results that are most important to the client: WRI 2023 attendance compared to WRI 2024 attendance. This is the number that drives the health of the event and growth of the community, and I believe this is a fair comparison since both events were held at the same time of year (May 2023 and June 2024), and both in large, upper Midwest cities — Minneapolis and Chicago:
 
