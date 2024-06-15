@@ -36,7 +36,7 @@ I'm honored to be working with the talented [WRS Team](https://sparker888.com/ar
 
 ---
 
-## What is the WRI Conference?
+## What is the Wheel Rail Interaction (WRI) Conference?
 
 ![WRI VIPs](/images/wri-team.png)
 
@@ -270,7 +270,7 @@ By leveraging these technologies and practices, I crafted a high-performance, se
 
 ## Case Study Summary
 
-The Wheel Rail Interaction Conference website redesign project was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and a codebase to clone for future events. After the conference, I received a lot of positive feedback about how well the website looks and performs. We saw above that the website performs technically well by reviewing the Google Lighthouse scores.
+The Wheel Rail Interaction (WRI) Conference website redesign was a huge success. We met our key goals and objectives for the WRI 2024 conference, and the technology is already working to support WRS's longer-term objectives for an event archive and serving as a codebase for future events. After the conference, I received positive feedback about how well the website looks and performs, and we saw above that the website performs technically well with high Google Lighthouse scores and increased traffic compared to the previous year.
 
 The bottom line? Well, let's look at the before and after results that are most important to the client: WRI 2023 attendance compared to WRI 2024 attendance. This is the number that drives the health of the event and growth of the community, and I believe this is a fair comparison since both events were held at the same time of year (May 2023 and June 2024), and both in large, upper Midwest cities — Minneapolis and Chicago:
 
