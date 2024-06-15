@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
+import Head from 'next/head'
 import clsx from 'clsx'
 
 import { Hero } from '@/components/Hero'
@@ -83,6 +84,19 @@ export function Layout({ children }) {
 
   return (
     <div className="flex flex-col w-full">
+      <Head>
+        <title>Gravital Digital</title>
+        <meta name="description" content="A Gravital Digital Case Study on the WRI 2024 Conference event website." />
+        <meta property="og:title" content="Gravital Digital - Case Study" />
+        <meta property="og:description" content="A Gravital Digital Case Study for the WRI 2024 Conference event website." />
+        <meta property="og:image" content="/wri-case-study-website.jpg" />
+        <meta property="og:url" content="https://gravital-wri-case-study.netlify.app/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Gravital Digital - Case Study" />
+        <meta name="twitter:description" content="A Gravital Digital Case Study on the WRI 2024 Conference event website." />
+        <meta name="twitter:image" content="/wri-case-study-website.jpg" />
+      </Head>
       <Header />
 
       {isHomePage && <Hero />}
