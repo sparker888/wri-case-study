@@ -49,10 +49,29 @@ const header = localFont({
 export const metadata = {
   title: {
     template: '%s - Docs',
-    default: 'WRI 2024 Website.',
+    default: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
   },
-  description:
-    'The Website built with Jamstack by Gravital Digital.',
+  description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
+  openGraph: {
+    title: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
+    description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
+    url: 'https://gravital-wri-case-study.netlify.app/',
+    type: 'website',
+    images: [
+      {
+        url: 'https://gravital-wri-case-study.netlify.app/wri-case-study-website.jpg',
+        width: 1200,
+        height: 628,
+        alt: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
+    description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
+    image: 'https://gravital-wri-case-study.netlify.app/wri-case-study-website.jpg',
+  },
 }
 
 export default function RootLayout({ children }) {
@@ -70,6 +89,22 @@ export default function RootLayout({ children }) {
       )}
       suppressHydrationWarning
     >
+      <head>
+        <title>Gravital Digital</title>
+        <meta name="description" content={metadata.description} />
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:type" content={metadata.openGraph.type} />
+        <meta property="og:image" content={metadata.openGraph.images[0].url} />
+        <meta property="og:image:width" content={metadata.openGraph.images[0].width} />
+        <meta property="og:image:height" content={metadata.openGraph.images[0].height} />
+        <meta property="og:image:alt" content={metadata.openGraph.images[0].alt} />
+        <meta name="twitter:card" content={metadata.twitter.card} />
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta name="twitter:description" content={metadata.twitter.description} />
+        <meta name="twitter:image" content={metadata.twitter.image} />
+      </head>
       <body className="flex min-h-full bg-white dark:bg-black">
         <Providers>
           <Layout>{children}</Layout>
