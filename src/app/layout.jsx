@@ -59,7 +59,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://gravital-wri-case-study.netlify.app/wri-case-study-website.jpg',
+        url: 'https://gravital-wri-case-study.netlify.app/images/wri-case-study-website.jpg',
         width: 1200,
         height: 628,
         alt: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
@@ -70,7 +70,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'WRI 2024 Conference breaks records! A Website Redesign Case Study.',
     description: 'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
-    image: 'https://gravital-wri-case-study.netlify.app/wri-case-study-website.jpg',
+    image: 'https://gravital-wri-case-study.netlify.app/images/wri-case-study-website.jpg',
   },
 }
 
