@@ -180,7 +180,9 @@ Several key services were integrated into the website to enhance the WRI 2024 si
 
 ### Cvent Event Management Software
 
-![Cvent Registration Screen](/images/cvent-register.png)
+![Event Pricing](/images/cvent-register.png)
+
+![Virtual Event Pricing](/images/event-pricing-2.png)
 
 Using Cvent's Event Registration system, we were able to configure the event to streamlined attendee registration for WRI 2024. This process was not straightfoward due to WRI's unique way of combining days into distinct packages for two tiers of attendees. Ultimately we did find a way to configure the event to that users can quickly review options and select the combo of days that best fit their interests. Cvent's forms work well for us as they are dynamic based on user selections, ensuring a seamless and secure registration experience.
 
