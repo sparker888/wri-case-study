@@ -148,6 +148,10 @@ WRI 2024 Speaker Grid
 
 WRI 2024 Heavy Haul Focus Topic Component
 
+![WRI 2024 Featured Speaker Component](/images/wri-featured-speaker.jpeg)
+
+WRI 2024 Rail Transit Featured Speaker Component
+
 ![WRI 2024 Rail Transit Seminar Bios & Abstracts](/images/rail-transit-bios.png)
 
 WRI 2024 Rail Transit Bios & Abstracts Grid
