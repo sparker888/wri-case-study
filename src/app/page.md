@@ -10,13 +10,11 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 {% quick-link title="WRI 2024 Design & Build" icon="presets" href="/docs/nextjs-react" description="Learn how we analyzed historic user behavior to help us develop a better online experience!" /%}
 
-{% quick-link title="Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Witness the power of key integrations for such as Cvent, powerful event software, and speaker content using a flexible CMS named Storyblok." /%}
+{% quick-link title="Integration Magic: Cvent & Storyblok" icon="plugins" href="/docs/cvent-integration" description="Witness the power of key integrations for such as Cvent, powerful event software, and speaker content using a flexible CMS named Storyblok." /%}
 
-{% quick-link title="Project Summary" icon="installation" href="/docs/goals-project-scope" description="I wrap up the project highlights here, from goals to design to the final build and launch! I also touch on possible future enhancements." /%}
+{% quick-link title="Case Study Wrap-up" icon="installation" href="/docs/goals-project-scope" description="I wrap up the project highlights here, from goals to design to the final build and launch! I also touch on possible future enhancements." /%}
 
 {% /quick-links %}
-
----
 
 # Executive Summary
 
@@ -40,7 +38,7 @@ I'm honored to be working with the talented [WRS Team](https://sparker888.com/ar
 
 ![WRI VIPs](/images/wri-team.png)
 
-Gordon Bachinsky, Kevin Oldknow, Bob Tuzik, and Richard Stock
+Pictured: Gordon Bachinsky, Kevin Oldknow, Bob Tuzik, and Richard Stock
 
 The Wheel Rail Interaction conference was created and built on the idea that the rail industry can only make progress in solving its most difficult challenges, and becoming the best version of itself, if there is free and open communication across the boundaries of traditional organizational silos.
 
@@ -49,6 +47,8 @@ The Wheel Rail Interaction conference was created and built on the idea that the
 Wheel Rail Seminars has excelled in creating events and environments in which there is a positive and open dialogue between personnel involved in rolling stock, track, operations, and management. Updates and ideas are shared between railways, suppliers, consultants, researchers, and regulators. Connections are made and conversations opened between some of the most junior and some of the most experienced members of our industry.
 
 ![WRI Presenter!](/images/corina.png)
+
+Pictured: Corina Moore, WSP in Canada
 
 ---
 
