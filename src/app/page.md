@@ -26,7 +26,7 @@ Scroll for the summary. Here are a few Quick Links: {% .lead %}
 
 Welcome to the Wheel Rail Interaction (WRI) 2024 website redesign case study. This site showcases how I worked with the Wheel Rail Seminars team to redesign the company's event website, which began in early 2023 and culminated in the WRI 2024 Conference held in Chicago in May 2024. I share our vision to enhance the company's brand, better showcase the event speakers, improve technical performance, and help users more easily navigate and register for the event.
 
-Included are details on how we achieved our key goals and delivered significant improvements to our core KPIs. Most notably, we increased traffic by 12%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. The WRI 2024 website also broke several attendance records! For two of the three seminars, the Rail Transit Seminar and the Principles Course, we achieved the highest attendance on record, going back 29 years. Enjoy!
+Included are details on how we achieved our key goals and delivered significant improvements to our core KPIs. Most notably, we increased traffic by 12%, boosted conversions by an impressive 23.5%, and saw a remarkable 32% rise in overall attendees. The WRI 2024 Conference broke several attendance records! For two of the three seminars, the Rail Transit Seminar and the Principles Course, we achieved the highest attendance on record, going back 29 years. Enjoy!
 
 ## First, quick introductions
 
