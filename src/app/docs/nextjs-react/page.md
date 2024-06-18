@@ -8,11 +8,11 @@ nextjs:
 
 ![The Power of React and Next.js](/images/the-power-of-react-nextjs.jpeg)
 
-The React library is a powerful open-source tool for building user interfaces because it enables efficient, declarative, and component-based development, enhancing productivity and providing a seamless integration for creating dynamic and interactive web applications.
+The React library is a powerful open-source tool for building user interfaces because it enables efficient, declarative, and component-based development. It enhances productivity and provides seamless integration for creating dynamic and interactive web applications.
 
 ---
 
-## Powering the World's Biggest Websites
+## Powering the World's Busiest Websites
 
 Open-source technologies have become the backbone of the internet, driving the innovation behind the world's most visited websites. From small blogs to large-scale enterprise solutions, open-source offers unparalleled flexibility and community support.
 
@@ -22,31 +22,70 @@ Open-source technologies have become the backbone of the internet, driving the i
 
 React is a JavaScript library for building user interfaces, renowned for its efficiency and flexibility. Developed by Facebook, it enables developers to create large web applications that can change data without reloading the page, providing a seamless user experience and improving website performance.
 
+### Reusable Components
+
 Reusable components are at the heart of React's design philosophy. Developers can create isolated pieces of UI that can be reused and managed independently, significantly speeding up the development process and ensuring consistency across large applications.
 
-![Next.js](/images/nextjs-white.png)
+![About WRI screenshot](/images/wri-about-slide.jpeg)
 
-### Next.js, the Home of React
+While the idea of components may bring to mind a modular way of building a high-performance website, for Jamstack sites based on React, we reinvented the concept...
 
-Next.js stands as a leading framework for React development, offering a comprehensive solution for building static and server-rendered applications. It extends the capabilities of React by providing a standardized structure for projects, simplifying data fetching, and enhancing performance through automatic code-splitting and page pre-rendering.
+#### ...on steroids.
 
-![NextJS Marketing Page](/images/nextjs-marketing.png)
-
-Next.js is pivotal in the modern web development landscape for its ability to seamlessly integrate with the Jamstack architecture, thereby offering developers the tools needed to create highly optimized, scalable websites. Its importance lies in the ease with which it allows for the creation of dynamic, SEO-friendly web pages that load quickly and offer interactive, user-focused experiences. This combination of speed, scalability, and user experience makes Next.js an indispensable part of building on a powerful stack, ensuring developers can efficiently produce cutting-edge web applications.
+The larger idea is that we want all elements in a website to do one thing each, and do one thing only (as best we can). This gave rise to component-based code blocks that serve not only as templates and objects with which to build user interfaces, but allow a level of composability in terms of sharing content based on state. A component can "React" to your input or the context within which the component lives (where it can receive data from parent components and much more).
 
 ---
 
-## Ease in integrating Data
+## The Importance of Component Architecture
 
-The modern web thrives on data, and technologies that simplify data integration are key to developing dynamic, interactive websites that cater to user needs and expectations.
+![Client-Server Image](/images/client-server.png)
 
-![Node.js](/images/node-js.png)
+These sections that can be seen visually on the page are components or are based on a parent component but with different information or in another state.
 
-### Built on Node.js
+### For Simplicity and Reusability
 
-Node.js, a JavaScript runtime built on Chrome's V8 JavaScript engine, revolutionizes how we build scalable network applications. Its non-blocking, event-driven architecture enables efficient handling of concurrent connections, making it ideal for data-intensive real-time applications that run across distributed devices.
+The "Light." in my tagline "Light. Speed." refers to the goal of keeping website code as simple and nimble as possible. In terms of components, simple code that can be reused over and over is powerful. 
 
-The node package manager (npm) is the world's largest software registry, offering countless packages to extend the functionality of JavaScript applications. npm simplifies adding libraries and tools, streamlining the website development process and fostering innovation through easy access to shared solutions.
+```jsx
+/* A simple component button example */
+export Button {
+   name: 'Register now',
+  color: ['bg:amber', 'text:blue', 'hover:text-to-green'],
+  state: {
+    on: true,
+    off: false,
+  },
+}
+```
+### How We Can Turn Blocks On/Off
+
+![Event Buttons](/images/three-icons-two-gray.png)
+
+The buttons were key components that appeared on almost all of the website's pages. In fact, React component technology came in very handy to react to the state of the icon depending upon its context. Here you can see this is a Principles Course page, so the other two seminar icons are grayed out (but you can still click on them).
+
+---
+
+## A Few of the Blocks Built for the WRI Website
+
+React blocks were used effectively in the WRI website code. Here are a few examples.
+
+### Seminar Pages About Info
+
+![Seminar Pages](/images/blocks-seminar-pages.png)
+
+The about information on the seminar pages is made up of components that are reused multiple times with different content and colors. In the future, these blocks could react to things such as whether a user is logged in or registered. If someone has been to previous conferences, it could offer them different info.
+
+### Speaker Cards
+
+![Speaker Card Blocks](/images/blocks-speaker-cards.jpeg)
+
+The speaker cards are a great example of a component that's reused over and over again. It's just one set of code that receives data and replicates itself as many times as needed to create the gallery of speakers. Now, when a card needs a change, the code is updated in just one place, and they're all updated, saving a tremendous amount of time.
+
+### Bio/Abstract Layout
+
+![Bio Abstract Blocks](/images/blocks-bio-abstract.png)
+
+The bios and abstracts are a similar system but more complex in terms of their implementation. In this case, we're drawing from the speaker card component and additional content for multiple text blocks as seen here. The components react with different color schemes and icons based on the context in which they're used to present the content in a meaningful manner. In this case, the components react to the fact that they're in the Heavy Haul seminar and change color and the icon used. This helps to streamline code, make it modular, and enable reuse to save time and money.
 
 ---
 
