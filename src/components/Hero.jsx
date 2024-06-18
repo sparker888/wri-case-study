@@ -67,7 +67,7 @@ export function Hero() {
       <div className="absolute inset-0 flex justify-center">
         <div className="relative w-full max-w-[1500px]">
           <video
-            className="object-cover w-full h-auto opacity-50"
+            className="h-auto w-full object-cover opacity-50"
             ref={videoRef}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
@@ -81,12 +81,12 @@ export function Hero() {
           </video>
         </div>
       </div>
-      <div className="absolute inset-0 opacity-75 bg-gradient-to-b from-transparent to-black"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-75"></div>
       <div className="relative py-16 sm:px-2 lg:relative lg:px-0 lg:py-20">
-        <div className="grid items-center max-w-2xl grid-cols-1 px-4 mx-auto gap-x-8 gap-y-16 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:max-w-8xl lg:grid-cols-2 lg:px-8 xl:gap-x-16 xl:px-12">
           <div className="relative z-10 md:text-center lg:text-left">
             <Image
-              className="absolute -mb-56 opacity-50 bottom-full right-full -mr-72"
+              className="absolute bottom-full right-full -mb-56 -mr-72 opacity-50"
               src={blurCyanImage}
               alt=""
               width={530}
@@ -95,25 +95,27 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="pb-2 font-black text-transparent text-8xl bg-gradient-to-br from-orange-500 to-red-800 bg-clip-text font-tagline sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
-                <span className="block md:inline">Fast.</span> <span className="block md:inline">Track.</span>
+              <p className="bg-gradient-to-br from-orange-500 to-red-800 bg-clip-text pb-2 font-tagline text-8xl font-black text-transparent sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
+                <span className="block md:inline">Fast.</span>{' '}
+                <span className="block md:inline">Track.</span>
               </p>
-              <p className="mt-3 text-2xl tracking-tight font-header text-slate-200">
-                See how Wheel Rail Interaction's new Jamstack website helped increase site traffic 12%,
-                conversions 23.5% and conference attendance by a whopping 32%!
+              <p className="mt-3 font-header text-2xl tracking-tight text-slate-200">
+                See how Wheel Rail Interaction's new Jamstack website helped
+                increase site traffic 12%, conversions 22.5% and conference
+                attendance by a whopping 30%!
               </p>
-              <div className="flex gap-4 mt-8 md:justify-center lg:justify-start">
+              <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button
                   href="https://gravitaldigital.com/#contact"
                   target="_blank"
-                  className="text-white bg-sky-600 hover:bg-white hover:text-red-700"
+                  className="bg-sky-600 text-white hover:bg-white hover:text-red-700"
                 >
                   Contact me
                 </Button>
                 <Button
                   href="https://wri.wheel-rail-seminars.com/"
                   target="_blank"
-                  className="text-white bg-gradient-to-br from-orange-500 to-red-700"
+                  className="bg-gradient-to-br from-orange-500 to-red-700 text-white"
                 >
                   Visit WRI 2024
                 </Button>
@@ -146,11 +148,11 @@ export function Hero() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10 blur-lg" />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10" />
               <div className="relative rounded-2xl bg-amber-600 ring-1 ring-white/10 backdrop-blur">
-                <div className="absolute h-px -top-px left-20 right-11 bg-gradient-to-r from-sky-300/0 via-sky-300/70 to-sky-300/0" />
-                <div className="absolute h-px -bottom-px left-11 right-20 bg-gradient-to-r from-blue-400/0 via-blue-400 to-blue-400/0" />
-                <div className="pt-4 pl-4">
+                <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-sky-300/70 to-sky-300/0" />
+                <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-blue-400/0 via-blue-400 to-blue-400/0" />
+                <div className="pl-4 pt-4">
                   <TrafficLightsIcon className="h-2.5 w-auto stroke-blue-600/50" />
-                  <div className="flex ml-12 space-x-2 text-2xl">
+                  <div className="ml-12 flex space-x-2 text-2xl">
                     {tabs.map((tab) => (
                       <div
                         key={tab.name}
@@ -172,10 +174,10 @@ export function Hero() {
                       </div>
                     ))}
                   </div>
-                  <div className="flex items-start px-1 mt-6 text-sm">
+                  <div className="mt-6 flex items-start px-1 text-sm">
                     <div
                       aria-hidden="true"
-                      className="pr-4 font-mono text-white border-r select-none border-slate-300/5"
+                      className="select-none border-r border-slate-300/5 pr-4 font-mono text-white"
                     >
                       {Array.from({
                         length: code.split('\n').length,
