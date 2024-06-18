@@ -184,7 +184,7 @@ Several key services were integrated into the website to enhance the WRI 2024 si
 
 ![Cvent Logo](/images/cvent-logo.png)
 
-### a. Cvent Event Management Software
+### a. Cvent event management software
 
 ![Cvent Splash Slide](/images/cvent-splash-slide.png)
 
@@ -210,7 +210,7 @@ The final step involved bringing Cvent's registration form into the WRI 2024 web
 
 ![Storyblok](/images/storyblok.webp)
 
-### b. Storyblok Content Management Software
+### b. Storyblok content management software (CMS)
 
 ![Storyblok Splash Slide](/images/storyblok-splash.png)
 
