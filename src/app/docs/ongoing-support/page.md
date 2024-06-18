@@ -43,8 +43,8 @@ As technology evolves, occasional updates to our software stack, including React
 
 ### Gravital Digital's Services
 
-I appreciate Gordon and the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!
+Thanks for reading through the case study! I do business as [Gravital Digital](https://gravitaldigital.com/#contact). I primarily produce websites, but I also assist with social media marketing and digital marketing analytics. I'm also working on an application for Midjourney AI. If you're interested, you can read more about it at my [Key Prompt Ninja](https://keypromptninja.io/) website.
 
-### Get in touch
+### Connecting with me
 
-It's easiest to contact me directly through my company website [Gravital Digital](https://gravitaldigital.com/#contact). You can also read more about me on my website at [sparker888.com](https://sparker888.com), follow me on [Twitter/X](https://x.com/sparker888), and connect with me on [LinkedIn](https://linkedin.com/in/sparker888). I'd love to hear from you and I'm happy to answer any questions about this project.
+You can read more about me on my website at [sparker888.com](https://sparker888.com), follow me on [Twitter/X](https://x.com/sparker888), and connect with me on [LinkedIn](https://linkedin.com/in/sparker888). I'd love to hear from you and I'm happy to answer any questions about this project.
