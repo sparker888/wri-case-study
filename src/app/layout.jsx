@@ -50,13 +50,13 @@ export const metadata = {
   title: {
     template: '%s - Docs',
     default:
-      'The WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
+      'WRI 2024 Scores Big! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
   },
   description:
     'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
   openGraph: {
     title:
-      'The WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
+      'WRI 2024 Scores Big! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
     description:
       'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
     url: 'https://gravital-wri-case-study.netlify.app/',
@@ -66,14 +66,14 @@ export const metadata = {
         url: 'https://gravital-wri-case-study.netlify.app/images/wri-case-study-website.jpg',
         width: 1200,
         height: 628,
-        alt: 'The WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
+        alt: 'WRI 2024 Scores Big! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title:
-      'The WRI 2024 Conference broke records! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
+      'WRI 2024 Scores Big! 🎉 Go behind the scenes of a Jamstack website redesign.🔎',
     description:
       'A Gravital Digital Case Study for the redesign of the WRI 2024 Conference event website using Jamstack technology and how it drove attendance records.',
     image:

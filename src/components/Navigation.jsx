@@ -3,6 +3,7 @@ import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 
 import { navigation } from '@/lib/navigation'
+import { Logomark } from '@/components/Logo' // Importing the Logomark component
 
 export function Navigation({ className, onLinkClick }) {
   let pathname = usePathname()
@@ -31,6 +32,8 @@ export function Navigation({ className, onLinkClick }) {
                         : 'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300',
                     )}
                   >
+                    <Logomark className="mr-2 inline-block h-5 w-5" />{' '}
+                    {/* Using the Logomark component */}
                     {link.title}
                   </Link>
                 </li>

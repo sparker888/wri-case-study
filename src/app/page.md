@@ -214,9 +214,7 @@ The final step involved bringing Cvent's registration form into the WRI 2024 web
 
 ![Storyblok Splash Slide](/images/storyblok-splash.png)
 
-Content Management,
-Done Right.
-Storyblok provides you with the platform to deliver engaging content at scale and create a distinctive customer experience, ensuring it’s delivered to the right audience and optimized for every channel.
+From their website: Content Management, Done Right. Storyblok provides you with the platform to deliver engaging content at scale and create a distinctive customer experience, ensuring it’s delivered to the right audience and optimized for every channel.
 
 ![Storyblok Editing](/images/storyblok-example-editing.png)
 ![Kevin Oldknow Page](/images/kevin-oldknow.png)
