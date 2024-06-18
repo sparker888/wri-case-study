@@ -30,7 +30,7 @@ Included are details on how we achieved our key goals and delivered significant 
 
 ![The Team!](/images/wrs-seattle.png)
 
-I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). While I served as the project producer, it was the combined efforts of President Gordon Bachinsky, Director of Operations Brandon Koenig, Director of Marketing & Events Erica Koenig, and Web Designer Randy Karey that made it all possible. I also work peripherally with Bob Tuzic, Executive Program Director, who has played a huge role in the program's success. He and his son, Jeff Tuzic, communicate amazing engineering stories within the community on their partner website, [Interface Journal](https://interface-journal.com), which is highlighted on all WRI websites.
+I'm honored to be working with the talented [WRS Team](https://sparker888.com/articles/joining-forces-with-wheel-rail-seminars). While I served as the project producer, it was the combined efforts of President Gordon Bachinsky, Director of Operations Brandon Koenig, Director of Marketing & Events Erica Koenig, and Web Designer Randy Karey that made it all possible. I also work peripherally with Bob Tuzik, Executive Program Director, who has played a huge role in the program's success. He and his son, Jeff Tuzik, communicate amazing engineering stories within the community on their partner website, [Interface Journal](https://interface-journal.com), which is highlighted on all WRI websites.
 
 ---
 
@@ -300,25 +300,25 @@ The bottom line? Well, let's look at the before and after results that are most 
 
 - Rail Transit Seminar{% width="50%" %}
 - 161 {% width="25%" %}
-- 206 {% width="25%" %}
+- 202 {% width="25%" %}
 
 ---
 
 - Principles Course Seminar {% width="50%" %}
 - 198 {% width="25%" %}
-- 256 {% width="25%" %}
+- 252 {% width="25%" %}
 
 ---
 
 - Heavy Haul Seminar {% width="50%" %}
 - 163 {% width="25%" %}
-- 229 {% width="25%" %}
+- 227 {% width="25%" %}
 
 ---
 
 - TOTAL ATTENDANCE {% width="50%" %}
 - 522 {% width="25%" %}
-- 691 {% width="25%" %}
+- 681 {% width="25%" %}
 
 {% /table %}
 
