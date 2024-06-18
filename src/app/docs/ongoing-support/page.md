@@ -6,7 +6,7 @@ nextjs:
     description: Ensuring continuous and streamlined support for event management and website maintenance.
 ---
 
-In my role at Wheel Rail Seminars, I am dedicated to providing continuous improvements and support as necessary. Regularly adding content and functionality to the website is an integral part of my responsibilities, and I will persist in assisting WRS in these endeavors. I anticipate that maintaining the WRI website will require minimal, yet crucial, effort. Specifically, we need to strategize our actions following the replication of our website template for future WRI events.
+In my role at Wheel Rail Seminars, I am dedicated to providing continuous improvements and support as WRI splits from one conference into two. For years the conference has included speakers and attendees from both heavy haul and rail transit segments of the industry. In doing so, the company has [recently announced](https://wheel-rail-seminars.com) the locations for what will now be known as WRI 2025 HH and WRI 2025 RT for the Heavy Haul conference in Kansas City in June and the Rail Transit conference in Kansas City in the Fall.
 
 ---
 
@@ -15,13 +15,15 @@ In my role at Wheel Rail Seminars, I am dedicated to providing continuous improv
 
 ## Annual Event Resets
 
-The foundation has been set. We have established a platform and process utilizing Jamstack and Git for version control to annually replicate our website design. This process necessitates setting up a new event in Cvent with updated event details and registration information (e.g., pricing adjustments). On the website, we must update time-sensitive content, including location, hero images, and dates. Given that details about speakers and sponsors will be determined later, we need to plan how to effectively manage initially blank pages and other important details.
+Building WRI 2024 established a platform and process utilizing Jamstack and Git for version control to create a codebase set up for smooth replication year after year. This process includes setting up a new event in Cvent, but we're able to clone the event configuration year after year and tweak the registration information (e.g., pricing and description adjustments). On the website proper, we updated update time-sensitive content, including location, hero images, and dates. The speakers will come later in the year, but you can see what we have on the newly cloned sites here:
+
+[WRI 2025 HH Kansas City](https://wri2025hh.wheel-rail-seminars.com)
+
+[WRI 2025 RT Seattle](https://wri2025rt.wheel-rail-seminars.com)
 
 ### Archive Management
 
-With WRI 2024 as our template in a Git repository and live on Netlify, we have prepared for future archiving. Annually, we can seamlessly link to the previous year's event, including speakers, bios, and abstracts.
-
-To improve branding, enhancing the archive page to reflect the new website's design post-WRI 2024 is advisable. I suggest designing a new archive page that complements the new website’s aesthetics.
+The WRI 2024 Jamstack redesign not only serves as our template in a Git repository and live on Netlify, but it will now serve as an archive. Each year we wrap up the event by adding the presentations to the Bios & Abstracts section that attendees can access year after year.
 
 ---
 
@@ -29,13 +31,13 @@ WRI 2028 Honolulu is not a real event! It's just a dream...
 
 ![HONOLULU 2028](/images/2028-skyline.jpg)
 
-## Maintenance and Future Changes
+## Jamstack Maintenance
 
-Routine updates are crucial for the upkeep of any digital platform. I will manage these updates as required, ensuring the website's functionality and security. I also have some suggestions on how we can extend the use of Storyblok and Cvent in the future.
+No site lasts forever and some routine updates are necessary for the upkeep of any digital platform. I manage these updates, ensuring the website's continued functionality and security, but they are somewhat minimal compared to many legacy website setups. This is one of the beautiful things about working with services such as Storyblok and Cvent - they manage their own systems for us.
 
-### Periodic Technology Updates
+### Continuous Improvement
 
-As technology evolves, occasional updates to our software stack, including React and Next.js, will be necessary. While our current setup requires minimal maintenance, we should allocate several hours annually to this function, with additional time for significant platform updates, which typically occur every one to two years.
+The WRS/WRI team is already working on future improvements. This summer we're adding image galleries, testimonials and announcements to the WRI 2025 websites. Jamstack and Git Version Control make it easy for us to try new features using component-based architecture. Stay tuned for more.
 
 ---
 
