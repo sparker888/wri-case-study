@@ -23,12 +23,13 @@ export const navigation = [
   {
     title: 'WRI Website Design & Build',
     links: [
-      { title: 'Design for Engineers', href: '/docs/wri-branding-elements' },
+      
       { title: 'The Power of Components', href: '/docs/nextjs-react' },
       {
         title: 'Component Building Blocks',
         href: '/docs/component-building-blocks',
       },
+      { title: 'Design for Engineers', href: '/docs/wri-branding-elements' },
       {
         title: 'Edge Hosting with Netlify',
         href: '/docs/edge-hosting-netlify',

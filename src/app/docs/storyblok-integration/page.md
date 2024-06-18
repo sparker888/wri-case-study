@@ -1,5 +1,5 @@
 ---
-title: Giving Power to Writers & Editors
+title: Storyblok Integration
 nextjs:
   metadata:
     title: Giving Power to Writers
@@ -22,7 +22,7 @@ Storyblok offers a live-preview editor that makes content creation and managemen
 
 ### It's an Editor's Dream
 
-Storyblok's user-friendly interface is designed for editors to thrive. With drag-and-drop functionality and easy-to-understand controls, creating engaging content is a straightforward process. Soon I'll produce a short video on how the system is set up in WRI 2024 but you can start to learn Storyblock with their [Editors Guide](https://www.storyblok.com/docs/editor-guides/).
+Storyblok's user-friendly interface is designed for editors to thrive. With drag-and-drop functionality and easy-to-understand controls, creating engaging content is a straightforward process. Check out their [Editors Guide](https://www.storyblok.com/docs/editor-guides/).
 
 ---
 
@@ -65,4 +65,3 @@ With Storyblok, organizing content goes hand in hand with maintaining a historic
 ![Get Started with Storyblok](/images/storyblok-cms.png)
 
 Step-by-step instructions are available on Notion (add link). If you wish to learn more, I highly recommend visiting Storyblok's [getting started docs](https://www.storyblok.com/docs/guide/introduction) or you can view a 5 minute video explaining what a headless CMS is, take a look at [this video](https://youtu.be/ajRbuyLUfZE?si=kdpFwdHxISKGDmcO).
-

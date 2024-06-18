@@ -6,11 +6,11 @@ nextjs:
     description: The ease of updating content ability for React libraries to plug into APIs makes for an excellent experience.
 ---
 
-## WRI 2024: Ready to Market!
+## Give marketers the tools they love!
 
 ![The Marketing Stack](/images/the-stack-for-marketing.jpeg)
 
-The Jamstack architecture empowers marketers with fast content updates, seamless tool integration, and scalable delivery — all key to a dynamic marketing strategy.
+The Jamstack architecture empowers companies to enable marketers to use the tools they love that enable fast content updates, seamless sitewide changes, and scalable delivery — perfect for those posts and stories that go viral!
 
 ### Streamlined Content Updates and Rapid Deployment
 

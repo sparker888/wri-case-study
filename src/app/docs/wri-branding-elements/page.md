@@ -8,19 +8,19 @@ nextjs:
 
 ![The WRI Brand](/images/the-wri-brand.png)
 
-This section of the project summary provides a high-level overview of the process of designing and building the new WRI website.
+I'll be adding to this section in the coming weeks. Watch my socials for more on the Design & Build of WRI 2024, but this will give you a birds-eye view of the overall process.
 
 ---
 
 ## The Wheel Rail Interface Past and Future
 
-![WRI 2022](/images/WRI2022.jpg)
+![WRI 2023-2](/images/2023-skyline.webp)
 
 WRI's long history has helped to develop a brand that has a few recognizable elements the team wanted to build upon.
 
 ### Building on past branding
 
-![WRI 2023-2](/images/wri-hero-branding.png)
+![WRI 2023-2](/images/2022-skyline.webp)
 
 Most notably, the city skyline used on the previous website, marketing material and event collateral is one of the most recognizable elements of the brand, so we kept and improved on that these with a full-width image for WRI Chicago.
 
@@ -62,7 +62,7 @@ Great lengths were taken to match Randy's design for the new WRI site that inclu
 
 ### TailwindCSS
 
-I describe the component-based nature of the build in the next section, but I wanted to take a moment to introduce one of the stars of the show here. TailwindCSS is a utility-first CSS framework that simplifies web development. TailwindCSS boosts development speed, reduces unused styles for faster load times, and facilitates building unique, efficient websites. 
+I describe the component-based nature of the build in the next section, but I wanted to take a moment to introduce one of the stars of the show here. TailwindCSS is a utility-first CSS framework that simplifies web development. TailwindCSS boosts development speed, reduces unused styles for faster load times, and facilitates building unique, efficient websites.
 
 Tailwind saved me time in building WRI 2024. Tailwind also enhances consistency and maintainability over time, allowing for easy adjustments to design elements of the website over time. It's an essential tool for modern developers prioritizing efficiency, maintainability, and performance in web design that will work to WRI's benefit over the years.
 
