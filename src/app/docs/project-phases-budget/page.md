@@ -1,8 +1,8 @@
 ---
-title: Project Scope & Budget
+title: Project Scope and Phases
 nextjs:
   metadata:
-    title: Project Scope & Budget
+    title: Project Scope and Phases
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
@@ -27,7 +27,7 @@ In addition to this focus, there were some limits to the project in terms of its
 
 2. Ten page templates were to be designed and built (and filled with dummy content ready for 2024 editing which would happen separately).
 
-3. The Registration system includes an intro page for two paths then forms that provide the various packages for both physical and virtual events.
+3. The Registration system includes an intro page for three paths then forms that provide the various packages for both physical and virtual events.
 
 4. There would be no site search.
 

@@ -51,7 +51,7 @@ export const navigation = [
     title: 'Project Summary',
     links: [
       { title: 'WRI Website Project Goals', href: '/docs/goals-project-scope' },
-      { title: 'Project Scope & Budget', href: '/docs/project-phases-budget' },
+      { title: 'Project Scope & Phases', href: '/docs/project-phases-budget' },
       { title: 'Ongoing Support', href: '/docs/ongoing-support' },
     ],
   },
