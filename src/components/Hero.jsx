@@ -95,8 +95,8 @@ export function Hero() {
               priority
             />
             <div className="relative">
-              <p className="pb-2 text-5xl font-black text-transparent bg-gradient-to-br from-orange-500 to-red-800 bg-clip-text font-tagline sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
-                Fast. Track.
+              <p className="pb-2 font-black text-transparent text-8xl bg-gradient-to-br from-orange-500 to-red-800 bg-clip-text font-tagline sm:pb-4 sm:text-6xl md:text-6xl lg:text-8xl xl:text-8xl 2xl:text-9xl">
+                <span className="block md:inline">Fast.</span> <span className="block md:inline">Track.</span>
               </p>
               <p className="mt-3 text-2xl tracking-tight font-header text-slate-200">
                 See how Wheel Rail Interaction's new Jamstack website helped increase site traffic 12%,
