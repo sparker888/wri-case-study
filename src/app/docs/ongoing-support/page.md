@@ -32,3 +32,12 @@ Routine updates are crucial for the upkeep of any digital platform. I will manag
 
 As technology evolves, occasional updates to our software stack, including React and Next.js, will be necessary. While our current setup requires minimal maintenance, we should allocate several hours annually to this function, with additional time for significant platform updates, which typically occur every one to two years.
 
+---
+
+### Thank you
+
+I appreciate Gordon and the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!
+
+### Get in touch
+
+It's easiest to contact me directly through my company website [Gravital Digital](https://gravitaldigital.com/#contact). You can also read more about me on my website at [sparker888.com](https://sparker888.com), follow me on [Twitter/X](https://x.com/sparker888), and connect with me on [LinkedIn](https://linkedin.com/in/sparker888). I'd love to hear from you and I'm happy to answer any questions about this project.
