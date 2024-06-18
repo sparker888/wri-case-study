@@ -39,7 +39,7 @@ const body = localFont({
   variable: '--font-body',
 })
 
-// Use local version of Insterstate so that we can use OpenType features
+// Use local version of Interstate so that we can use OpenType features
 const header = localFont({
   src: '../fonts/interstate.woff',
   display: 'swap',
