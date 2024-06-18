@@ -103,8 +103,8 @@ The economics of a website redesign are critical to get right. While it's fun fo
 5. **Cost Effective**
 6. **Editor Access**
 7. **Enhanced Security**
-8. **Legal Coverage**
-9. **Minimal Maintenance**
+8. **Minimize Legal Exposure**
+9. **Minimize Maintenance Costs**
 
 This led to the project scope and a project agreement with specific deliverables that I will go into more detail on later.
 
