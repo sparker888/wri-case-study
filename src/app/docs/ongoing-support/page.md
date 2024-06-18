@@ -10,7 +10,8 @@ In my role at Wheel Rail Seminars, I am dedicated to providing continuous improv
 
 ---
 
-![HONOLULU 2028](/images/gravital-brand.png)
+![WRI 2025RT SEATTLE 2025](/images/wri2025-rt-social.png)
+![WRI 2025HH KANSAS CITY](/images/wri2025-hh-social.png)
 
 ## Annual Event Resets
 
@@ -24,6 +25,8 @@ To improve branding, enhancing the archive page to reflect the new website's des
 
 ---
 
+![HONOLULU 2028](/images/2028-skyline.jpg)
+
 ## Maintenance and Future Changes
 
 Routine updates are crucial for the upkeep of any digital platform. I will manage these updates as required, ensuring the website's functionality and security. I also have some suggestions on how we can extend the use of Storyblok and Cvent in the future.
@@ -34,7 +37,9 @@ As technology evolves, occasional updates to our software stack, including React
 
 ---
 
-### Thank you
+![GRAVITAL DIGITAL](/images/gravital-brand.png)
+
+### Gravital Digital's Services
 
 I appreciate Gordon and the team at [Wheel Rail Seminars](https://wheel-rail-seminars.com) who helped make this project a success. Thank you!
 
