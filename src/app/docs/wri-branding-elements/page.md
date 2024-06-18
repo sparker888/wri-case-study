@@ -36,27 +36,31 @@ We standardized on the color palette not only for the three key colors - red, gr
 
 ---
 
-## Design Process
+## My Process
 
-The team went through a few phases when designing and building the WRI website.
+### Mapping the user journey
 
-#### Wireframes
-
-The team first created wireframes to help us proportion the content for the next steps.
-
-![Wireframes](/images/wireframe-home.png)
-
-#### User Journey
-
-The team also looked at the user flow through the site to determine how we could improve the flow, particularly for the registration process. Then, Randy Karey took over and developed the designs in Photoshop, then in Adobe XD.
+We covered the goals and business requirements above. Once defined and the project deliverables are signed off, I engaged the creative team in a discovery session with data from an Google Analytics. The team reviewed the data to determine page popularity and user flow through the site. This helped us to prioritize where we should focus improvements on the user journey through the website, the content flow and organization, and details on how to improve the registration process in particular.
 
 ![Journey](/images/wireframe-wri.jpg)
 
-#### Project Build
+### Wireframes and Concepts
 
-Great lengths were taken to match Randy's design for the new WRI site that included maintaining a consistent look from the past, but also elements to enhance the brand.
+Next, we collaborated on Notion with mood boards to share things we liked about other event sites and offered up ideas on how we feel the site should look and feel. This was a balance in preserving the best of the historical branding versus improvements we wanted to see that makes websites look modern and communicate information clearly and quickly. Most importantly, we used the wireframes to organize content and set up the page flow in important areas such as registration. The wireframes led to the concepts which were developed in Adobe XD.
 
-![WRI Chicago Header](/images/wri-chicago-header.jpg)
+![Wireframes](/images/wireframe-home.png)
+
+### Project Build
+
+The WRI 2024 website build was accomplished in several phases where, in general, I would develop a template page, share a draft of the page for comments and changes, then fine tune and polish it for production. This process was repeated over and over again for each page, section and sometimes even particular UI elements. This culminates in a round of testing them launch!
+
+![WRI 2024 WRI Chicago Skyline Hero Banner](/images/wri-chicago-header.jpg)
+
+NOTE: I'll be adding more detail of the process in the next few weeks (Summer 2024).
+
+---
+
+## Tools of the trade
 
 ![Tailwind CSS](/images/tailwind.webp)
 
@@ -66,15 +70,13 @@ I describe the component-based nature of the build in the next section, but I wa
 
 Tailwind saved me time in building WRI 2024. Tailwind also enhances consistency and maintainability over time, allowing for easy adjustments to design elements of the website over time. It's an essential tool for modern developers prioritizing efficiency, maintainability, and performance in web design that will work to WRI's benefit over the years.
 
----
-
-## Templates helped save time!
+### Tailwind templates helped save time!
 
 ![Footer Template Before](/images/using-templates.png)
 
 Another aspect of the build that was used to save time was the use of templates. Templates will also help us add features or sections over time to keep costs down.
 
-### Footer template
+#### Footer template example
 
 This is an example of a footer component that has little styling that we used over the original design as we needed to have a place for more links.
 
@@ -82,8 +84,10 @@ This is an example of a footer component that has little styling that we used ov
 
 And this is the final look of the footer after we added our category and link names as well as our font and colors.
 
-### Sponsorship Call to Action (CTA)
+#### Sponsorship Call to Action (CTA) template example
 
 ![Sponsor CTS](/images/sponsor-cta.png)
 
 The CTA is another template that was used as a call out to download the PDF document for sponsorship opportunities. This may look simple on the surface, but the component code is developed to resize as needed for multiple devices. A lot of time went into this template to make it as battle-hardened as possible. We gain the benefit of all that work with a copy, paste and configure.
+
+NOTE: I'll be adding more detail of the process in the next few weeks (Summer 2024).

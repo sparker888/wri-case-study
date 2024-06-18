@@ -72,27 +72,27 @@ _B. Improve Information Organization & Event Registration_
 
 _C. Support Replication & Archival of Past Events using a Clonable Codebase_
 
-### b. Improved Usability and Branding
+### b. Improved usability and branding
 
 The new design of the WRI website needed to not only improve usability in terms of being fast and easy to navigate, but support a longer-term objective of improving the reach of the WRI Conference message to our key audiences. As a team, we have achieved this by enhancing the event's branding elements and visual appeal (working on this now - need to explain how we expanded reach).
 
-### c. A Streamlined Registration Process
+### c. A streamlined registration process
 
 Another important objective involved improving the organization of information and re-engineering the registration process, offering a more intuitive user experience from start to finish. I believe the combination of updated seminar information, registration category and tier graphics, and the configuration of the registration signup process from Cvent achieves this objective.
 
 ![Flexibility.](/images/flexibility.png)
 
-### d. Empowering Editors to Directly Access Content
+### d. Empowering editors to directly access content
 
 One of the most time consuming tasks in updating the WRI website for each annual conference is adding the speaker bios & and abstract content. To meet this objective of providing editors with direct access to edit this content, we now have a content management system (CMS) that holds the speakers, bios & abstracts information so it can be edited using a simple online text editor.
 
-### e. Implement Versioning for Future Events
+### e. Implement versioning for future events
 
 Building the WRI website codebase with the popular React library using Git version control provides us with important benefits. During the build, using version control allowed us to set up a draft website for content review before going live. This same system will enable us to replicate the codebase year over year and go back to see old sites at any point in time. Most importantly, Git will serve as our means of cloning the codebase for each annual event, saving us valuable time while preserving an archive of past events.
 
 ![Reliability.](/images/reliability.png)
 
-## 3. Meeting Business Requirements
+## 3. Meeting business requirements
 
 The economics of a website redesign are critical to get right. While it's fun for us designers to jump in creatively, working upfront with WRS senior leadership to address business requirements was essential before we began to envision the new design's look and feel. Getting this right required conversations around goals, budget, requirements, expectations, internal processes, and ongoing support. Here are some of the top topics discussed during those conversations with leadership:
 
@@ -112,7 +112,7 @@ This led to the project scope and a project agreement with specific deliverables
 
 ## 4. My Process
 
-### a. Mapping the User Journey
+### a. Mapping the user journey
 
 We covered the goals and business requirements above. Once defined and the project deliverables are signed off, I engaged the creative team in a discovery session with data from an Google Analytics. The team reviewed the data to determine page popularity and user flow through the site. This helped us to prioritize where we should focus improvements on the user journey through the website, the content flow and organization, and details on how to improve the registration process in particular.
 
@@ -202,7 +202,7 @@ Upon signing our contract with Cvent, I became involved in extensive onboarding 
 
 The configuration of the WRI 2024 event in Cvent was meticulously handled, from defining registration types and adding speaker profiles to incorporating sessions and admission items. As mentioned above, I had to undertake this with minimal training, so we had a bit of trial and error as the Cvent system is based on sessions versus days, but we landed on a solution that works well.
 
-#### Configuring Cvent Registration Paths
+#### Configuring Cvent registration paths
 
 ![Integrating Cvent](/images/cvent-registration-form.png)
 
@@ -256,13 +256,13 @@ Next.js significantly enhances web development by facilitating server-side rende
 
 ![Tailwind](/images/tailwind.webp)
 
-### c. Design System using TailwindCSS
+### c. Design system using TailwindCSS
 
 TailwindCSS, renowned for its utility-first approach, empowers developers to directly build designs within their HTML. This methodology expedites the styling process, obviating the need for custom CSS, and facilitates the rapid development of responsive designs across various devices. I love working with TailwindCSS for its simplicity and powerful design system ensures consistent branding throughout the project. Its integration with Next.js allows developers to seamlessly blend these styling benefits within a robust web development framework. The synergy between TailwindCSS and Next.js enhances both the developer experience and the performance of the application.
 
 ![GitHub](/images/github.webp)
 
-### d. Managing the Codebase with the GitHub Repository
+### d. Managing the codebase with the GitHub repository
 
 GitHub is Microsoft's code repository known and trusted throughout the world, and it's where we store the code for this all all client projects. GitHub is home to over 200,000,000 codebases, both public and private. They uses a standardized system of code version control called Git which we utilize to manage the website's codebase.
 
@@ -270,11 +270,11 @@ Version control is indispensable in contemporary development workflows, particul
 
 ![Netlify](/images/netlify.webp)
 
-### e. Edge Hosting on Netlify
+### e. Edge hosting with Netlify
 
 Hosting with Netlify presents numerous advantages, including widespread CDN distribution for accelerated content delivery and effortless scalability. Netlify's continuous deployment from Git automatically publishes updates across all branches, while its support for serverless functions enables dynamic functionalities without the complexity of server management. This amalgamation of React and Netlify provides a potent combination for constructing and deploying fast, secure, and scalable web applications, underscoring the technological synergy that characterizes the WRI 2024 project.
 
-### f. Summary of Jamstack Technology Benefits
+### f. Summary of Jamstack technology benefits
 
 By leveraging these technologies and practices, I crafted a high-performance, secure, visible, and composable website for the WRI 2024 Conference. Constructed using Jamstack principles and modern development tools, it not only delivers exceptional user experiences as evidenced by high Google Lighthouse scores but delivers where it counts - increases in traffic, conversions and event attendance. It's also designed for long-term performance. By cloning repos from a standard code base, then reconfiguring content by event, new WRI websites are created from this template, year after year, serving as a dynamic conference archive, showcasing past event for posterity.
 
