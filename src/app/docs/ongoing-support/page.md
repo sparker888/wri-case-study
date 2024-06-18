@@ -1,8 +1,8 @@
 ---
-title: Ongoing Support
+title: WRI 2025 and Beyond
 nextjs:
   metadata:
-    title: Ongoing Support
+    title: WRI 2025 and Beyond
     description: Ensuring continuous and streamlined support for event management and website maintenance.
 ---
 
