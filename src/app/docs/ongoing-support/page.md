@@ -25,6 +25,8 @@ To improve branding, enhancing the archive page to reflect the new website's des
 
 ---
 
+WRI 2028 Honolulu is not a real event! It's just a dream...
+
 ![HONOLULU 2028](/images/2028-skyline.jpg)
 
 ## Maintenance and Future Changes
