@@ -156,6 +156,12 @@ WRI 2024 Rail Transit Featured Speaker Component
 
 WRI 2024 Rail Transit Bios & Abstracts Grid
 
+![Event Pricing](/images/cvent-register.png)
+
+![Virtual Event Pricing](/images/event-pricing-2.png)
+
+Package Pricing
+
 ![WRI 2024 Sponsor Marquee](/images/sponsor-marquee.png)
 
 WRI 2024 Sponsor Marquee (animated)
@@ -180,9 +186,7 @@ Several key services were integrated into the website to enhance the WRI 2024 si
 
 ### Cvent Event Management Software
 
-![Event Pricing](/images/cvent-register.png)
-
-![Virtual Event Pricing](/images/event-pricing-2.png)
+![Cvent Splash Slide](/images/cvent-splash-slide.png)
 
 Using Cvent's Event Registration system, we were able to configure the event to streamlined attendee registration for WRI 2024. This process was not straightfoward due to WRI's unique way of combining days into distinct packages for two tiers of attendees. Ultimately we did find a way to configure the event to that users can quickly review options and select the combo of days that best fit their interests. Cvent's forms work well for us as they are dynamic based on user selections, ensuring a seamless and secure registration experience.
 
@@ -207,6 +211,12 @@ The final step involved bringing Cvent's registration form into the WRI 2024 web
 ![Storyblok](/images/storyblok.webp)
 
 ### Storyblok Content Management Software
+
+![Storyblok Splash Slide](/images/storyblok-splash.png)
+
+Content Management,
+Done Right.
+Storyblok provides you with the platform to deliver engaging content at scale and create a distinctive customer experience, ensuring it’s delivered to the right audience and optimized for every channel.
 
 ![Storyblok Editing](/images/storyblok-example-editing.png)
 ![Kevin Oldknow Page](/images/kevin-oldknow.png)
