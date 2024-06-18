@@ -45,7 +45,7 @@ The WRS/WRI team is already working on future improvements. This summer, we're a
 
 ### Gravital Digital's Services
 
-Thanks for reading through the case study! I do business as [Gravital Digital](https://gravitaldigital.com/#contact). I primarily produce websites, but I also assist with social media marketing and digital marketing analytics. I'm also working on an application for Midjourney AI. If you're interested, you can read more about it at my [Key Prompt Ninja](https://keypromptninja.io/) website.
+Thanks for reading through the case study! I do business as [Gravital Digital](https://gravitaldigital.com/). I primarily produce websites, but I also assist with social media marketing and digital marketing analytics. I'm also working on an application for Midjourney AI. If you're interested, you can read more about it at my [Key Prompt Ninja](https://keypromptninja.io/) website.
 
 ### Connecting with me
 
