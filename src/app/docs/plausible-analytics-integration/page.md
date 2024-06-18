@@ -8,7 +8,7 @@ nextjs:
 
 ![Plausible Analytics Slide](/images/plausible-slide.png)
 
-In the age where user privacy is paramount, Plausible Analytics offers a privacy-first approach that aligns with our ethos and user expectations. By choosing Plausible, the WRI 2024 website avoids the need for intrusive cookie popups, enhancing the user experience and maintaining trust.
+In an age where user privacy is under greater scrutiny, Plausible Analytics offers a privacy-first approach that aligns with my ethos and user expectations of limiting third-party cookies and the types of information companies collect on their users. With Plausible, the WRI 2024 website avoids the need for intrusive cookie popups, enhancing the user experience and maintaining trust.
 
 ---
 
@@ -19,7 +19,6 @@ The selection of Plausible Analytics as our provider is a strategic decision to 
 ### The Problem with Google Analytics
 
 Traditional analytics services like Google Analytics often require the use of cookies, leading to complex consent management and potential privacy concerns. Plausible Analytics stands out by not using cookies, which means we can offer a clean, user-friendly experience without compromising on data quality or site performance.
-
 
 ![Plausible Dashboard](/images/plausible-long.png)
 
@@ -33,13 +32,12 @@ Plausible Analytics integrates seamlessly, offering real-time insights with a st
 
 ## Putting that Data to Work
 
-I have set up automatic reporting going to the team weekly and monthly so we can see what leads to influxes in traffic. As such, I'll continue to highlight areas for improvement. The WRI website's performance is always under watchful eyes.
+For WRI 2024, I set up automatic reports to be delivered to the team via email on a weekly and monthly basis. Not only do we use it to gauge our traffic, but we can also see what marketing activities are driving traffic to the website.
 
 ### Basic Analysis
 
-Gravital provides fundamental analysis and reporting as part of our service package. This includes traffic trends, referral sources, and basic user behavior metrics, giving us a snapshot of the site's health and performance.
+Working as Gravital, I provide fundamental analysis and reporting as part of my service packages. This includes analysis of traffic trends, referral sources, and basic user behavior metrics, giving us a snapshot of the site's health and performance at key times during the event campaign.
 
 ### Creating Goals and Funnels
 
-For those interested in deeper insights, we offer advanced tracking services. This includes setting up specific goals, measuring conversions, and analyzing funnels to streamline marketing efforts. While basic reporting is included in our retainer, more detailed analysis can be provided with an adjusted scope of hours.
-
+For those interested in deeper insights, I offer advanced tracking services. This includes setting up specific goals, measuring conversions, and analyzing funnels to streamline marketing efforts. While basic reporting is included in our retainer, more detailed analysis can be provided with an adjusted scope of hours.
