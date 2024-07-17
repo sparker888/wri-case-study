@@ -1,5 +1,5 @@
 ---
-title: WRI Website Resedign Case Study
+title: WRI 2024 Website Resedign Case Study
 ---
 
 Scroll for the summary. Here are a few Quick Links: {% .lead %}
