@@ -13,6 +13,7 @@ import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import PlausibleProvider from 'next-plausible'
 
 function GitHubIcon(props) {
   return (
@@ -45,12 +46,12 @@ function Header() {
           : 'dark:bg-transparent',
       )}
     >
-      <div className="flex mr-6 lg:hidden">
+      <div className="mr-6 flex lg:hidden">
         <MobileNavigation />
       </div>
-      <div className="relative flex items-center flex-grow basis-0">
+      <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page" passHref>
-          <div className="flex items-center cursor-pointer">
+          <div className="flex cursor-pointer items-center">
             <Image
               src={gravitalLogo}
               alt="Logo"
@@ -58,8 +59,8 @@ function Header() {
               height={35}
               className="mr-4"
             />
-            <span className="text-2xl font-logo text-sky-600">Gravital</span>
-            <span className="ml-1 text-2xl font-logo text-amber-600">
+            <span className="font-logo text-2xl text-sky-600">Gravital</span>
+            <span className="ml-1 font-logo text-2xl text-amber-600">
               Digital
             </span>
           </div>
@@ -68,10 +69,14 @@ function Header() {
       {/*<div className="mr-6 -my-5 sm:mr-8 md:mr-0">
         <Search />
       </div>*/}
-      <div className="relative flex justify-end gap-6 basis-0 sm:gap-8 md:flex-grow">
+      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com/sparker888" className="group" aria-label="GitHub">
-          <GitHubIcon className="w-6 h-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
+        <Link
+          href="https://github.com/sparker888"
+          className="group"
+          aria-label="GitHub"
+        >
+          <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
     </header>
@@ -83,35 +88,49 @@ export function Layout({ children }) {
   let isHomePage = pathname === '/'
 
   return (
-    <div className="flex flex-col w-full">
-      <Head>
-        <title>Gravital Digital</title>
-        <meta name="description" content="A Gravital Digital Case Study on the WRI 2024 Conference event website." />
-        <meta property="og:title" content="Gravital Digital - Case Study" />
-        <meta property="og:description" content="A Gravital Digital Case Study for the WRI 2024 Conference event website." />
-        <meta property="og:image" content="/wri-case-study-website.jpg" />
-        <meta property="og:url" content="https://gravital-wri-case-study.netlify.app/" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Gravital Digital - Case Study" />
-        <meta name="twitter:description" content="A Gravital Digital Case Study on the WRI 2024 Conference event website." />
-        <meta name="twitter:image" content="/wri-case-study-website.jpg" />
-      </Head>
-      <Header />
+    <PlausibleProvider domain="gravital-wri-case-study.netlify.app">
+      <div className="flex w-full flex-col">
+        <Head>
+          <title>Gravital Digital</title>
+          <meta
+            name="description"
+            content="A Gravital Digital Case Study on the WRI 2024 Conference event website."
+          />
+          <meta property="og:title" content="Gravital Digital - Case Study" />
+          <meta
+            property="og:description"
+            content="A Gravital Digital Case Study for the WRI 2024 Conference event website."
+          />
+          <meta property="og:image" content="/wri-case-study-website.jpg" />
+          <meta
+            property="og:url"
+            content="https://gravital-wri-case-study.netlify.app/"
+          />
+          <meta property="og:type" content="website" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Gravital Digital - Case Study" />
+          <meta
+            name="twitter:description"
+            content="A Gravital Digital Case Study on the WRI 2024 Conference event website."
+          />
+          <meta name="twitter:image" content="/wri-case-study-website.jpg" />
+        </Head>
+        <Header />
 
-      {isHomePage && <Hero />}
+        {isHomePage && <Hero />}
 
-      <div className="relative flex justify-center flex-auto w-full mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
-        <div className="hidden lg:relative lg:block lg:flex-none">
-          <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
-          <div className="absolute bottom-0 right-0 hidden w-px h-12 top-16 bg-gradient-to-t from-slate-800 dark:block" />
-          <div className="absolute bottom-0 right-0 hidden w-px top-28 bg-slate-800 dark:block" />
-          <div className="sticky top-[4.75rem] -ml-0.5 h-[calc(100vh-4.75rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
-            <Navigation />
+        <div className="relative mx-auto flex w-full max-w-8xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
+          <div className="hidden lg:relative lg:block lg:flex-none">
+            <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
+            <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
+            <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-slate-800 dark:block" />
+            <div className="sticky top-[4.75rem] -ml-0.5 h-[calc(100vh-4.75rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
+              <Navigation />
+            </div>
           </div>
+          {children}
         </div>
-        {children}
       </div>
-    </div>
+    </PlausibleProvider>
   )
 }
