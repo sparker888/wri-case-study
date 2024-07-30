@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   EnvelopeIcon,
   PhoneIcon,
@@ -14,7 +14,7 @@ export default function ContactForm() {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-    
+
     try {
       await fetch('/', {
         method: 'POST',
@@ -69,6 +69,9 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
+            {submitted && (
+              <p className="mt-4 text-green-500">Thank you! Your message has been sent.</p>
+            )}
             <form
               name="contact"
               method="POST"
@@ -211,9 +214,6 @@ export default function ContactForm() {
                 </button>
               </div>
             </form>
-            {submitted && (
-              <p className="mt-4 text-green-500">Thank you! Your message has been sent.</p>
-            )}
           </div>
         </div>
       </div>
