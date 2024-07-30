@@ -1,10 +1,10 @@
 // components/ContactForm.jsx
-import React from 'react'
+import React from 'react';
 import {
   EnvelopeIcon,
   PhoneIcon,
   CalendarIcon,
-} from '@heroicons/react/24/outline'
+} from '@heroicons/react/24/outline';
 
 export default function ContactForm() {
   return (
@@ -196,5 +196,5 @@ export default function ContactForm() {
         </div>
       </div>
     </div>
-  )
+  );
 }
