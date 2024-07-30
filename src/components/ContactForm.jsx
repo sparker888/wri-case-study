@@ -1,13 +1,12 @@
-"use client";
-import React, { useState } from 'react';
+
+import React from 'react'
 import {
   EnvelopeIcon,
   PhoneIcon,
   CalendarIcon,
-} from '@heroicons/react/24/outline';
+} from '@heroicons/react/24/outline'
 
 export default function ContactForm() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
     <div className="py-16 bg-gradient-to-br from-sky-900 to-amber-900">
@@ -40,8 +39,9 @@ export default function ContactForm() {
               </div>
               <div className="flex items-center">
                 <CalendarIcon className="w-6 h-6 mr-2 text-amber-400" />
-                
-                  <a href="https://calendly.com/book-sparker888/30min"
+
+                <a
+                  href="https://calendly.com/book-sparker888/30min"
                   className="text-sky-400 hover:text-sky-300"
                 >
                   Book a 30-min. meeting
@@ -51,13 +51,11 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
-            {isSubmitted && (
-              <div className="mb-4 text-green-500 sm:col-span-2">
-                Thank you! Your message has been sent.
-              </div>
-            )}
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact" />
+  <p hidden>
+    <label>Don't fill this out: <input name="bot-field" /></label>
+  </p>
   <input type="text" name="name" />
   <button type="submit">Send</button>
 </form>
@@ -65,5 +63,5 @@ export default function ContactForm() {
         </div>
       </div>
     </div>
-  );
+  )
 }
