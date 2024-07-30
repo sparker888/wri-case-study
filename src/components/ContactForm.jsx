@@ -9,30 +9,6 @@ import {
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
-    console.log("Form data:", Object.fromEntries(formData.entries())); // Log form data
-
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      });
-
-      console.log("Form submitted", response);
-
-      if (response.ok) {
-        setIsSubmitted(true);
-      } else {
-        console.error("Form submission failed", response);
-      }
-    } catch (error) {
-      console.error("Form submission error", error);
-    }
-  };
-
   return (
     <div className="py-16 bg-gradient-to-br from-sky-900 to-amber-900">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -85,7 +61,7 @@ export default function ContactForm() {
               method="POST"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
-              onSubmit={handleSubmit}
+              netlify
               className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
               <input type="hidden" name="form-name" value="contact" />
