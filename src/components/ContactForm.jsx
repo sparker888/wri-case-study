@@ -51,7 +51,7 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
   <input type="hidden" name="form-name" value="contact" />
   <p hidden>
     <label>Don't fill this out: <input name="bot-field" /></label>

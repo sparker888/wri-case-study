@@ -12,6 +12,8 @@ const nextConfig = {
     }
     return config;
   },
+  // Add this line
+  target: 'serverless',
 };
 
 export default withSearch(
