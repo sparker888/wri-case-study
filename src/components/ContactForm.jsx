@@ -13,7 +13,7 @@ export default function ContactForm() {
     <div className="py-16 bg-gradient-to-br from-sky-900 to-amber-900">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div className="text-white">
+          <div className="pr-12 text-white">
             <img
               src="/images/gravital.png"
               alt="Gravital Digital"
@@ -23,11 +23,10 @@ export default function ContactForm() {
               <span className="font-logo text-sky-500">Gravital</span>
               <span className="font-logo text-amber-600">Digital</span>
             </h2>
-            <h3 className="mb-4">SIGN UP FOR A FREE WEBSITE REVIEW!</h3>
+            <h3 className="mb-4 text-xl font-bold">Want to modernize your event website?</h3>
             <p className="mb-8">
-              Send me your website address and receive a free 30-minute
-              consultation with Stephen Parker. Fill out the form or choose a
-              connect option below!
+              Send me your details and website address using this form or choose a
+              connect option below! I'll get back with you within 24 hours. Thanks!
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
