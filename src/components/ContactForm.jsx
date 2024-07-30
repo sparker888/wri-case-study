@@ -75,6 +75,11 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
+            {isSubmitted && (
+              <div className="mb-4 text-green-500 sm:col-span-2">
+                Thank you! Your message has been sent.
+              </div>
+            )}
             <form
               name="contact"
               method="POST"
@@ -216,11 +221,6 @@ export default function ContactForm() {
                   Send Message
                 </button>
               </div>
-              {isSubmitted && (
-                <div className="mt-4 text-green-500 sm:col-span-2">
-                  Thank you! Your message has been sent.
-                </div>
-              )}
             </form>
           </div>
         </div>
