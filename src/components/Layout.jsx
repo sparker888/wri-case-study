@@ -11,9 +11,9 @@ import { Hero } from '@/components/Hero'
 import gravitalLogo from '@/images/gravital.png'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
-import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 import PlausibleProvider from 'next-plausible'
+import ContactForm from '@/components/ContactForm'
 
 function GitHubIcon(props) {
   return (
@@ -46,12 +46,12 @@ function Header() {
           : 'dark:bg-transparent',
       )}
     >
-      <div className="mr-6 flex lg:hidden">
+      <div className="flex mr-6 lg:hidden">
         <MobileNavigation />
       </div>
-      <div className="relative flex flex-grow basis-0 items-center">
+      <div className="relative flex items-center flex-grow basis-0">
         <Link href="/" aria-label="Home page" passHref>
-          <div className="flex cursor-pointer items-center">
+          <div className="flex items-center cursor-pointer">
             <Image
               src={gravitalLogo}
               alt="Logo"
@@ -59,24 +59,21 @@ function Header() {
               height={35}
               className="mr-4"
             />
-            <span className="font-logo text-2xl text-sky-600">Gravital</span>
-            <span className="ml-1 font-logo text-2xl text-amber-600">
+            <span className="text-2xl font-logo text-sky-600">Gravital</span>
+            <span className="ml-1 text-2xl font-logo text-amber-600">
               Digital
             </span>
           </div>
         </Link>
       </div>
-      {/*<div className="mr-6 -my-5 sm:mr-8 md:mr-0">
-        <Search />
-      </div>*/}
-      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
+      <div className="relative flex justify-end gap-6 basis-0 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link
           href="https://github.com/sparker888"
           className="group"
           aria-label="GitHub"
         >
-          <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
+          <GitHubIcon className="w-6 h-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
     </header>
@@ -89,7 +86,7 @@ export function Layout({ children }) {
 
   return (
     <PlausibleProvider domain="gravital-wri-case-study.netlify.app">
-      <div className="flex w-full flex-col">
+      <div className="flex flex-col w-full">
         <Head>
           <title>Gravital Digital</title>
           <meta
@@ -119,16 +116,26 @@ export function Layout({ children }) {
 
         {isHomePage && <Hero />}
 
-        <div className="relative mx-auto flex w-full max-w-8xl flex-auto justify-center sm:px-2 lg:px-8 xl:px-12">
+        <div className="relative flex justify-center flex-auto w-full mx-auto max-w-8xl sm:px-2 lg:px-8 xl:px-12">
+          {/* Left navigation */}
           <div className="hidden lg:relative lg:block lg:flex-none">
             <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
-            <div className="absolute bottom-0 right-0 top-16 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
-            <div className="absolute bottom-0 right-0 top-28 hidden w-px bg-slate-800 dark:block" />
+            <div className="absolute bottom-0 right-0 hidden w-px h-12 top-16 bg-gradient-to-t from-slate-800 dark:block" />
+            <div className="absolute bottom-0 right-0 hidden w-px top-28 bg-slate-800 dark:block" />
             <div className="sticky top-[4.75rem] -ml-0.5 h-[calc(100vh-4.75rem)] w-64 overflow-y-auto overflow-x-hidden py-16 pl-0.5 pr-8 xl:w-72 xl:pr-16">
               <Navigation />
             </div>
           </div>
-          {children}
+
+          {/* Main content and right navigation */}
+          <div className="flex flex-auto min-w-0 px-4 sm:px-6 xl:px-8">
+            {children}
+          </div>
+        </div>
+
+        {/* Full-width ContactForm */}
+        <div className="w-full mt-16">
+          <ContactForm />
         </div>
       </div>
     </PlausibleProvider>

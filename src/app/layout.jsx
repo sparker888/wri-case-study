@@ -2,6 +2,8 @@ import clsx from 'clsx'
 import localFont from 'next/font/local'
 import { Providers } from '@/app/providers'
 import { Layout } from '@/components/Layout'
+import ContactForm from '@/components/ContactForm'
+import HiddenForm from '@/components/HiddenForm'
 import '@/styles/tailwind.css' // Make sure this imports your global CSS where the Adobe Fonts are linked
 
 // Use local version of Interstate Ultra Black so that we can use OpenType features
@@ -129,8 +131,9 @@ export default function RootLayout({ children }) {
       </head>
       <body className="flex min-h-full bg-white dark:bg-black">
         <Providers>
-          <Layout>{children}</Layout>
+        <Layout>{children}</Layout>
         </Providers>
+        <HiddenForm />
       </body>
     </html>
   )
