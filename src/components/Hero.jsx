@@ -106,8 +106,7 @@ export function Hero() {
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button
-                  href="https://gravitaldigital.com/#contact"
-                  target="_blank"
+                  href="#contact-form"
                   className="bg-sky-600 text-white hover:bg-white hover:text-red-700"
                 >
                   Contact me

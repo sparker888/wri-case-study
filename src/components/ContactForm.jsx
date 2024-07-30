@@ -10,7 +10,10 @@ export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false)
 
   return (
-    <div className="py-16 bg-gradient-to-br from-sky-900 to-amber-900">
+    <div
+      className="py-16 bg-gradient-to-br from-sky-900 to-amber-900"
+      id="contact-form"
+    >
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div className="pr-12 text-white">
@@ -23,10 +26,15 @@ export default function ContactForm() {
               <span className="font-logo text-sky-500">Gravital</span>
               <span className="font-logo text-amber-600">Digital</span>
             </h2>
-            <h3 className="mb-4 text-xl font-bold">Want to modernize your event website?</h3>
+            <h3 className="mb-4 text-xl font-bold">
+              I happy to provide a Free consultation!
+            </h3>
+            <p className="mb-4">
+              Send me your details and website address using this form or choose
+              a connect option below!
+            </p>
             <p className="mb-8">
-              Send me your details and website address using this form or choose a
-              connect option below! I'll get back with you within 24 hours. Thanks!
+              I'll get back with you within 24 hours. Thanks!
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -51,6 +59,9 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
+            <h1 className="mb-4 text-3xl font-bold text-amber-500">
+              Want to modernize your event website?
+            </h1>
             {isSubmitted && (
               <div className="mb-4 text-green-500 sm:col-span-2">
                 Thank you! Your message has been sent.
@@ -194,7 +205,7 @@ export default function ContactForm() {
                   type="submit"
                   className="inline-block px-4 py-2 font-sans text-base font-medium transition duration-500 border border-transparent rounded-full bg-sky-600 text-amber-50 hover:bg-sky-900 hover:text-amber-200 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 sm:w-auto"
                 >
-                  Send Message
+                  Submit Info
                 </button>
               </div>
             </form>
