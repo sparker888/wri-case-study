@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState } from 'react';
 import {
   EnvelopeIcon,
@@ -8,19 +6,23 @@ import {
 } from '@heroicons/react/24/outline';
 
 export default function ContactForm() {
-  const [formState, setFormState] = useState({ submitted: false, error: false });
+  const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const form = e.target;
-
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(new FormData(form)).toString(),
-    })
-      .then(() => setFormState({ submitted: true, error: false }))
-      .catch(() => setFormState({ submitted: false, error: true }));
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    
+    try {
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString(),
+      });
+      setSubmitted(true);
+    } catch (error) {
+      console.error('Form submission error:', error);
+    }
   };
 
   return (
@@ -65,16 +67,6 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
-            {formState.submitted && (
-              <div className="text-green-500">
-                Thank you! Your message has been sent.
-              </div>
-            )}
-            {formState.error && (
-              <div className="text-red-500">
-                Oops! Something went wrong. Please try again.
-              </div>
-            )}
             <form
               name="contact"
               method="POST"
@@ -198,7 +190,7 @@ export default function ContactForm() {
                   </span>
                 </div>
                 <div className="mt-1">
-                <textarea
+                  <textarea
                     id="message"
                     name="message"
                     rows={4}
@@ -217,6 +209,9 @@ export default function ContactForm() {
                 </button>
               </div>
             </form>
+            {submitted && (
+              <p className="mt-4 text-green-500">Thank you! Your message has been sent.</p>
+            )}
           </div>
         </div>
       </div>
