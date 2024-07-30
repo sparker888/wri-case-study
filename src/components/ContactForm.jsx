@@ -1,21 +1,36 @@
 "use client";
-
 import React, { useState } from 'react';
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  CalendarIcon,
+} from '@heroicons/react/24/outline';
 
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    const form = event.target;
-    const formData = new FormData(form);
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then(() => setIsSubmitted(true))
-      .catch((error) => console.error(error));
+    const formData = new FormData(event.target);
+    console.log("Form data:", Object.fromEntries(formData.entries())); // Log form data
+
+    try {
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      });
+
+      console.log("Form submitted", response);
+
+      if (response.ok) {
+        setIsSubmitted(true);
+      } else {
+        console.error("Form submission failed", response);
+      }
+    } catch (error) {
+      console.error("Form submission error", error);
+    }
   };
 
   return (
@@ -38,6 +53,25 @@ export default function ContactForm() {
               consultation with Stephen Parker. Fill out the form or choose a
               connect option below!
             </p>
+            <div className="space-y-4">
+              <div className="flex items-center">
+                <PhoneIcon className="w-6 h-6 mr-2 text-sky-400" />
+                <span>407-710-5497</span>
+              </div>
+              <div className="flex items-center">
+                <EnvelopeIcon className="w-6 h-6 mr-2 text-amber-400" />
+                <span>go@gravitaldigital.com</span>
+              </div>
+              <div className="flex items-center">
+                <CalendarIcon className="w-6 h-6 mr-2 text-amber-400" />
+                <a
+                  href="https://calendly.com/book-sparker888/30min"
+                  className="text-sky-400 hover:text-sky-300"
+                >
+                  Book a 30-min. meeting
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="lg:col-span-2">
@@ -49,8 +83,8 @@ export default function ContactForm() {
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
-                className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
                 onSubmit={handleSubmit}
+                className="grid grid-cols-1 mt-6 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <p hidden>
