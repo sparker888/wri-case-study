@@ -65,7 +65,7 @@ export default function ContactForm() {
               <div className="flex items-center">
                 <CalendarIcon className="w-6 h-6 mr-2 text-amber-400" />
                 
-                  href="https://calendly.com/book-sparker888/30min"
+                  <a href="https://calendly.com/book-sparker888/30min"
                   className="text-sky-400 hover:text-sky-300"
                 >
                   Book a 30-min. meeting
