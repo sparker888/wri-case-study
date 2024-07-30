@@ -59,7 +59,7 @@ export default function ContactForm() {
           </div>
 
           <div className="lg:col-span-2">
-            <h1 className="mb-4 text-3xl font-bold text-amber-500">
+            <h1 className="mb-4 text-4xl font-bold text-amber-500">
               Want to modernize your event website?
             </h1>
             {isSubmitted && (
