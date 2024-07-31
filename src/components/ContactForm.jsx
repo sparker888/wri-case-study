@@ -27,7 +27,7 @@ export default function ContactForm() {
               <span className="font-logo text-amber-600">Digital</span>
             </h2>
             <h3 className="mb-4 text-xl font-bold">
-              I happy to provide a Free consultation!
+              I'm happy to provide a Free consultation!
             </h3>
             <p className="mb-4">
               Send me your details and website address using this form or choose
