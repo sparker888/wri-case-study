@@ -32,13 +32,21 @@ Google Lighthouse is an open-source, automated tool designed to improve the qual
 
 High Google Lighthouse scores signify a website's excellence across multiple dimensions of web development, including performance, accessibility, best practices, and SEO.
 
-### Jamstack Helps Achieve These High Scores
+### What is Jamstack, exactly?
 
-By running Lighthouse, and using Jamstack build tools, I'm able to improve a website's experience, page load times, accessibility for users with disabilities, search engine visibility, and overall user experience.
+Jamstack is an architectural approach that decouples the web experience layer from data and business logic, improving flexibility, scalability, performance, and maintainability. Jamstack removes the need for business logic to dictate the web experience. As such, we can develop website front ends that focus on delivering a great experience for the user. It turns out that this is incredibly valuable, particularly when trying to rank on Google!
 
-Lighthouse makes good recommendations on how to evaluate and enhance the quality of websites and applications. Jamstack can meet these recommendations and so it's become an indispensable resource for building modern, user-centric web projects.
+This approach prioritizes:
 
-## What Benefits Do These Scores Deliver?
+1. Page delivery speed
+2. Higher search rankings
+3. Delightful user experiences
+4. Improved security
+5. Lower maintenance costs
+
+By leveraging Jamstack architecture, Light. Speed. delivers fast, secure, and highly efficient websites that perform well in today’s competitive digital landscape.
+
+## What Benefits Does Jamstack Provide?
 
 ![The Best Stack.](/images/powerful-stack-biilman.png)
 
@@ -46,30 +54,48 @@ Lighthouse makes good recommendations on how to evaluate and enhance the quality
 
 — Mathias Biilmann (CEO & Co-founder of Netlify).
 
-### Increased Page Speed
+Let’s get in the weeds a bit and introduce you to some important web jargon you should know as a business owner or marketing manager. The term Jamstack was coined by Mathias Biilmann, CEO of Netlify, which is a cloud platform for deploying websites and apps, based on the acronym JAM which stands for JavaScript, APIs, and Markup. This modern web development architecture separates the frontend from backend apps and databases. Freed from backend servers, the frontend can then be deployed globally, directly to a CDN or Content Delivery Network. Here are the key points:
 
-The cornerstone of Jamstack's appeal to marketers lies in its use of static page generators, which serve pre-built webpages to users with lightning speed. This methodology drastically cuts down the loading time for pages, ensuring that potential customers encounter no hindrances when trying to access content, products, or services. In today's digital age, where the competition for user attention is fierce, the immediacy offered by Jamstack is invaluable. Swift page loads are instrumental in lowering bounce rates and fostering user engagement, which, in turn, significantly boosts conversions and, ultimately, revenue.
+#### Jamstack provides Pre-rendering: 
 
-Adopting Jamstack and its static page generators inherently endows websites with unmatched speed and reliability, dramatically enhancing a site's search result rankings. This increased visibility is a boon for marketers, allowing them to extend their reach, amplify brand awareness, and attract more organic traffic. Thus, the efficiency and rapidity Jamstack brings to the table are key to crafting a digital marketing strategy that is not only more effective but also more lucrative.
+Pages are built at deploy time, resulting in static HTML files that load quickly (the browser does less work and pages appear quickly).
 
-### Higher Search Engine (SEO) Visibility
+#### Jamstack promotes Decoupling: 
 
-Adherence to best practices and SEO optimization are further bolstered by Jamstack's architecture. It encourages the use of HTTPS, content security policies, and efficient asset delivery—factors that contribute to a site's best practices score. Moreover, Jamstack's static nature makes websites more crawlable and indexable by search engines, improving SEO scores.
+Decoupling is the process of creating a clean separation between systems or services. By decoupling the services needed to operate a site, each component part can become easier to reason about, can be independently swapped out or upgraded, and can be designated the purview of dedicated specialists either within an organization or as a third party. The separation of frontend and backend allows for greater flexibility and scalability.
 
-Enhanced SEO means increased visibility, higher traffic, and, ultimately, more conversions. In summary, high Google Lighthouse scores, facilitated by Jamstack, are indicative of a well-rounded, quality website that excels in performance, accessibility, best practices, and SEO, offering tangible benefits to businesses and developers alike.
+#### Jamstack supports Dynamic Functionalities: 
 
-### Accessibility Helps Everyone
+JavaScript and APIs handle interactive elements without sacrificing speed. We’ll get into this more a bit later.
 
-Accessibility is another critical area where Jamstack contributes positively. By fostering the development of websites with clean, semantic HTML and encouraging the use of modern web technologies, Jamstack facilitates the creation of more accessible websites.
+This architecture not only improves performance but also enhances security and scalability. By serving pre-built static files, Jamstack sites drastically reduce the attack surface, making them inherently more secure. Additionally, the use of CDNs allows for effortless scaling, ensuring your site can handle traffic spikes without additional infrastructure costs.
 
-This not only broadens the potential audience by making content accessible to users with disabilities but also aligns with legal and ethical standards for web accessibility. High accessibility scores reflect a commitment to inclusivity, enhancing a brand's reputation and user satisfaction.
+![The Modern Stack.](/images/jamstack-1-2.png)
 
-### Security & Maintainability to Sleep at Night
+ While the jargon is important for a more detailed understanding and discussion of technology decisions behind any business’s website or application, what’s really important for managers to understand are the benefits Jamstack provides.
 
-By reducing reliance on dynamic server-side processes, Jamstack sites minimize potential attack vectors, making them inherently more secure. For marketers, this means less downtime and fewer security concerns, which could otherwise negatively impact brand reputation and user trust.
+The problem with the legacy web is that we’re at a point where many companies have traditional operations that depend on a web server (or many of them), that have to run complex applications all of the time. Running websites and applications like this slows things down, provides way too many opportunities for attacks, and is expensive to scale. Moreover, it’s costly in terms of needing large development teams and high maintenance costs.
+
+### The solution?
+
+While not every company can benefit from this approach, many can. I will be the first to advocate for the right tool for the job, but I’m continually surprised at how many can benefit from a Light. Speed. solution. Simplify!
+
+#### Move from web servers to CDNs
+
+A Jamstack deployment doesn’t run on a traditional setup of origin servers. Instead, automated deployments are used to push sites directly to the Edge / CDN.
+
+#### Prerender web pages for speed
+
+Rather than building content at runtime for each request, content is prebuilt and optimized during a build setup using a site generator and other build tools.
+
+#### Move from monolithic apps to APIs & Microservices
+
+Decoupling the frontend from the backend allows for more modular development where we can take advantage of the huge ecosystem of third-party tools to provide website functionality.
+
+The result is a faster website, higher Google search rankings, high scaling without high complexity, and you can launch your sites & apps faster (smaller teams, happier devs, and faster deployment cycles).
 
 ### Summary of Jamstack Benefits
 
-In summary, Jamstack offers a compelling mix of performance, security, and flexibility, making it an ideal foundation for modern digital marketing strategies. The benefits to WRI extend across SEO, content delivery, user experience, security, accessibility, and operational efficiency, providing a platform that will withstand the rigors of many years of service.
+In summary, Jamstack offers a compelling mix of performance, security, and flexibility, making it an ideal architecture for modern digital marketing strategies. The benefits to WRI extend across SEO, content delivery, user experience, security, accessibility, and operational efficiency, providing a platform that will withstand the rigors of many years of service.
 
 ---
