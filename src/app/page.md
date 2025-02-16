@@ -231,7 +231,7 @@ By separating the management of speaker information from the website code, CMSs 
 
 WRI 2024 has excellent lighthouse scores including perfect 'Best Practices' and 'SEO' scores according to their methodology and results. We made some tradeoffs with the Performance and Accessibility scores as they are heavily affected by media and Javascript as well as stringent requirements for contrast that can affect brand colors. We're satisfied with these scores and I continue to monitor them as we add and remove both content and features.
 
-![High Performance.](/images/lighthouse-score-performance.png)
+![High Performance.](/images/lighthouse-scores.png)
 
 ### a. Jamstack technology
 

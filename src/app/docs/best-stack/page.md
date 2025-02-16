@@ -16,7 +16,7 @@ Jamstack delivers performance, but how do we know it when we see it? Well, for o
 
 ### The Test Scores
 
-![High Performance.](/images/lighthouse-score-performance.png)
+![High Performance.](/images/lighthouse-scores-raw.png)
 
 Google Lighthouse is an open-source, automated tool designed to improve the quality of web pages. It provides audits for performance, accessibility, progressive web apps, SEO, and adherence to best practices. 
 
@@ -48,7 +48,7 @@ By leveraging Jamstack architecture, Light. Speed. delivers fast, secure, and hi
 
 ## What Benefits Does Jamstack Provide?
 
-![The Best Stack.](/images/powerful-stack-biilman.png)
+![The Best Stack.](/images/lighthouse-scores.png)
 
 "A modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup (the JAM in Jamstack)."
 
